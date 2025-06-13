@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "titulo": "Museus Castro Maya",
+        "descricao": "Tema WordPress para museus do IBRAM com painel administrativo customizado",
+        "texto": "Tema WordPress desenvolvido como parte do meu trabalho no IBRAM. A partir da necessidade de adaptar os sites dos museus ao padrão institucional do governo, utilizando o tema Bloksy (compatível com o plugin Tainacan), desenvolvi um tema filho personalizado para garantir fidelidade visual, estabilidade e flexibilidade. Criei um sistema de menus integrado ao WordPress, com widgets configuráveis via painel, suporte a cores personalizadas e layout responsivo. O projeto exigiu domínio avançado de PHP para garantir integração total com o tema base e reutilização do código em toda a rede de museus.",
+        "URL": "https://museuscastromaya.museus.gov.br/",
+        "tags": [
+            "WordPress",
+            "PHP",
+            "JavaScript",
+            "CSS"
+        ]
+    },
+    {
+        "id": 2,
+        "titulo": "Freelancer - Site RH",
+        "descricao": "Site para empresa de RH e DP com manutenção contínua",
+        "texto": "Site desenvolvido como freelancer para empresa de RH e Deptartamento pessoal, com manutenção contínua e atualizações regulares de conteúdo.",
+        "URL": "https://terceirizacaodp.vercel.app/",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "API ‘StaticForms"
+        ]
+    },
+    {
+        "id": 3,
+        "titulo": "E-commerce",
+        "descricao": "Plataforma de e-commerce com carrinho de compras e autenticação",
+        "texto": "Plataforma de e-commerce com carrinho de compras, barra de pesquisa, autenticação e CRUD utilizando React e gerenciamento de estado avançado.",
+        "URL": "https://ecomerce-delta-seven.vercel.app/",
+        "tags": [
+            "React",
+            "JavaScript",
+            "SCSS",
+            "Recoil"
+        ]
+    },
+    {
+        "id": 4,
+        "titulo": "DevsStream",
+        "descricao": "Plataforma de vídeos com categorias e pesquisa",
+        "texto": "Plataforma de vídeos desenvolvida com React e TypeScript, com funcionalidades de listagem e cadastro de vídeos por meio de requisições GET e POST. Inclui sistema de categorias, pesquisa e publicação de conteúdo.",
+        "URL": "https://devstream-sand.vercel.app/",
+        "tags": [
+            "React",
+            "TypeScript",
+            "CSS",
+            "MyJSONSERVER (API)"
+        ]
+    },
+    {
+        "id": 5,
+        "titulo": "Formulário React Hooks",
+        "descricao": "Formulário avançado com validação Zod",
+        "texto": "Formulário avançado com validação Zod e gerenciamento via React Hook Form, utilizando TypeScript.",
+        "URL": "https://formulario-react-hooks.vercel.app/",
+        "tags": [
+            "React",
+            "TypeScript",
+            "Zod",
+            "React Hook Form"
+        ]
+    },
+    {
+        "id": 13,
+        "titulo": "Agendamento de Consultas",
+        "descricao": "Sistema de agendamento com React, TypeScript e Vite",
+        "texto": "Este projeto é um sistema simples de agendamento de consultas médicas desenvolvido com React, TypeScript e Vite. A interface utiliza Tailwind CSS para um layout moderno e responsivo. Possui formulário com validação, geração de ID para cada consulta, dashboard com listagem das consultas (agendadas e concluídas), e estatísticas resumidas. O projeto reforça conceitos como componentização, props, estado e gerenciamento de dados em tempo real.",
+        "URL": "https://agendamento-consulta-react-ts.vercel.app/",
+        "tags": [
+            "React",
+            "TypeScript",
+            "Vite",
+            "Tailwind CSS",
+            "Lucide React"
+        ]
+    }
+,
+    {
+        "id": 6,
+        "titulo": "CRUD JavaScript",
+        "descricao": "Aplicação de cadastro com operações CRUD",
+        "texto": "Aplicação de cadastro de pessoas com operações básicas CRUD, desenvolvida em JavaScript puro.",
+        "URL": "https://crudobjetos.vercel.app/",
+        "tags": [
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "id": 7,
+        "titulo": "Cadastro React",
+        "descricao": "Sistema de cadastro com operações CRUD em React",
+        "texto": "Sistema de cadastro com operações CRUD, desenvolvido em React com gerenciamento de estado eficiente.",
+        "URL": "https://sistema-cadastro-react.vercel.app/",
+        "tags": [
+            "React",
+            "JavaScript",
+            "CSS"
+        ]
+    },
+    
+    {
+        "id": 8,
+        "titulo": "Formulário Validado",
+        "descricao": "Formulário com validação em tempo real",
+        "texto": "Formulário com validação em tempo real, focado em experiência do usuário e interações fluidas.",
+        "URL": "https://form-validado.vercel.app/",
+        "tags": [
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "id": 9,
+        "titulo": "Site Eletricista",
+        "descricao": "Site institucional para eletricista autônomo",
+        "texto": "Site institucional simples para eletricista autônomo, com design limpo e informações claras.",
+        "URL": "https://projeto-eletricista.vercel.app/",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": 10,
+        "titulo": "Bootstrap Raiz",
+        "descricao": "Projeto com layouts responsivos em Bootstrap",
+        "texto": "Projeto focado em praticar layouts responsivos utilizando Bootstrap como framework principal.",
+        "URL": "https://prejeto-raiz-bootstrap.vercel.app/",
+        "tags": [
+            "Bootstrap",
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "id": 11,
+        "titulo": "Apple Hub",
+        "descricao": "Clone da página da Apple com design moderno",
+        "texto": "Clone da página da Apple com design moderno e responsivo, explorando técnicas avançadas de UI/UX.",
+        "URL": "https://site-apple--delta.vercel.app/",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": 12,
+        "titulo": "WhatsApp Clone",
+        "descricao": "Interface inspirada no WhatsApp",
+        "texto": "Interface inspirada no WhatsApp, desenvolvida para praticar conceitos de UI/UX e front-end.",
+        "URL": "https://site-whpp.vercel.app/",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    }
+]
