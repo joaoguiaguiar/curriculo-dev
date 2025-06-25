@@ -3,11 +3,11 @@
         "id": 1,
         "titulo": "Museus Castro Maya",
         "descricao": "Tema WordPress para museus do IBRAM com painel administrativo customizado",
-        "texto": "Tema WordPress desenvolvido como parte do meu trabalho no IBRAM. A partir da necessidade de adaptar os sites dos museus ao padrão institucional do governo, utilizando o tema Bloksy (compatível com o plugin Tainacan), desenvolvi um tema filho personalizado para garantir fidelidade visual, estabilidade e flexibilidade. Criei um sistema de menus integrado ao WordPress, com widgets configuráveis via painel, suporte a cores personalizadas e layout responsivo. O projeto exigiu domínio avançado de PHP para garantir integração total com o tema base e reutilização do código em toda a rede de museus.",
+        "texto": "Desenvolvido como parte do meu trabalho no IBRAM, este projeto surgiu da necessidade de substituir temas antigos vulneráveis nos sites institucionais. Utilizando o tema Blocksy (compatível com o plugin Tainacan), criei um tema filho altamente customizado, com fidelidade visual, estabilidade e flexibilidade. Implementei menus integrados ao WordPress, widgets configuráveis via painel, suporte a cores customizadas e layout responsivo. O projeto exigiu domínio avançado de PHP para garantir integração total com o tema base e reutilização eficiente em toda a rede de museus.",
         "URL": "https://museuscastromaya.museus.gov.br/",
         "tags": [
-            "WordPress",
             "PHP",
+            "WordPress",
             "JavaScript",
             "CSS"
         ]
