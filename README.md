@@ -13,4 +13,4 @@ Tecnologias Utilizadas
 
  ## 🌐 Site em produção
 
-https://curriculo-dev-react.vercel.app/
+https://curriculo-react-joaoaguiar.vercel.app/
