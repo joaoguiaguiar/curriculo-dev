@@ -4,9 +4,8 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import PaginaPadrao from './pages/PaginaPadrao';
 import Home from './pages/Home';
-import AboutMe from './pages/AboutMe'; // Corrigi typo aqui também
-import NotRouter from './pages/404.jsx'; // Corrigi typo aqui também
-
+import AboutMe from './pages/AboutMe'; 
+import NotRouter from './pages/404.jsx'; 
 
 
 function App() {

@@ -16,33 +16,37 @@
         "id": 2,
         "titulo": "Freelancer - Site RH",
         "descricao": "Site para empresa de RH e DP com manutenção contínua",
-        "texto": "Site desenvolvido como freelancer para empresa de RH e Deptartamento pessoal, com manutenção contínua e atualizações regulares de conteúdo.",
+        "texto": "Site desenvolvido como freelancer para empresa de Recursos Humanos e Departamento Pessoal, implementando design responsivo e integração com API StaticForms para formulários de contato. O projeto incluiu manutenção contínua com atualizações regulares de conteúdo, otimização de performance e melhorias na experiência do usuário. Desenvolvido com foco em conversão e apresentação profissional dos serviços da empresa.",
         "URL": "https://terceirizacaodp.vercel.app/",
         "tags": [
             "HTML",
             "CSS",
             "JavaScript",
-            "API ‘StaticForms"
+            "API StaticForms"
         ]
     },
     {
         "id": 3,
         "titulo": "E-commerce",
         "descricao": "Plataforma de e-commerce com carrinho de compras e autenticação",
-        "texto": "Plataforma de e-commerce com carrinho de compras, barra de pesquisa, autenticação e CRUD utilizando React e gerenciamento de estado avançado.",
+        "texto": "Plataforma de e-commerce em desenvolvimento ativo, construída com React e TypeScript, implementando funcionalidades essenciais como autenticação de usuário via Local Storage, carrinho de compras dinâmico, sistema CRUD e barra de navegação responsiva. O projeto utiliza Recoil e Context API para gerenciamento de estado global, React Router DOM para navegação, e Styled Components com SCSS e Bootstrap para uma interface moderna e responsiva. Desenvolvido apenas para fins de estudos fazendo parte do aprendizado contínuo, com foco em boas práticas de desenvolvimento e arquitetura escalável. Próximas etapas incluem integração com banco de dados e implementação de funcionalidades avançadas para tornar a plataforma totalmente funcional.",
         "URL": "https://ecomerce-delta-seven.vercel.app/",
         "tags": [
             "React",
-            "JavaScript",
+            "TypeScript",
             "SCSS",
-            "Recoil"
+            "Recoil",
+            "Context API",
+            "Styled Components",
+            "Bootstrap",
+            "React Router DOM"
         ]
     },
     {
         "id": 4,
         "titulo": "DevsStream",
         "descricao": "Plataforma de vídeos com categorias e pesquisa",
-        "texto": "Plataforma de vídeos desenvolvida com React e TypeScript, com funcionalidades de listagem e cadastro de vídeos por meio de requisições GET e POST. Inclui sistema de categorias, pesquisa e publicação de conteúdo.",
+        "texto": "Plataforma de vídeos desenvolvida com React e TypeScript como projeto de estudos, implementando funcionalidades de listagem e cadastro de vídeos por meio de requisições GET e POST utilizando MyJSONServer como API mock. Inclui sistema de categorias dinâmicas, funcionalidade de pesquisa em tempo real e interface para publicação de conteúdo. O projeto explora conceitos de consumo de APIs, gerenciamento de estado e componentização avançada em React.",
         "URL": "https://devstream-sand.vercel.app/",
         "tags": [
             "React",
@@ -55,7 +59,7 @@
         "id": 5,
         "titulo": "Formulário React Hooks",
         "descricao": "Formulário avançado com validação Zod",
-        "texto": "Formulário avançado com validação Zod e gerenciamento via React Hook Form, utilizando TypeScript.",
+        "texto": "Formulário avançado desenvolvido para estudos de React Hook Form e validação com Zod, utilizando TypeScript para tipagem robusta. Implementa validação em tempo real, tratamento de erros personalizados e experiência de usuário otimizada. O projeto explora conceitos avançados de formulários controlados, schemas de validação e boas práticas de UX em formulários web.",
         "URL": "https://formulario-react-hooks.vercel.app/",
         "tags": [
             "React",
@@ -77,13 +81,12 @@
             "Tailwind CSS",
             "Lucide React"
         ]
-    }
-,
+    },
     {
         "id": 6,
         "titulo": "CRUD JavaScript",
         "descricao": "Aplicação de cadastro com operações CRUD",
-        "texto": "Aplicação de cadastro de pessoas com operações básicas CRUD, desenvolvida em JavaScript puro.",
+        "texto": "Aplicação de cadastro de pessoas desenvolvida em JavaScript puro como projeto de estudos para dominar conceitos fundamentais de CRUD (Create, Read, Update, Delete). Implementa funcionalidades completas de adição, listagem, edição e exclusão de registros, utilizando Local Storage para persistência de dados. O projeto explora manipulação do DOM, eventos JavaScript e estruturas de dados básicas.",
         "URL": "https://crudobjetos.vercel.app/",
         "tags": [
             "JavaScript",
@@ -95,7 +98,7 @@
         "id": 7,
         "titulo": "Cadastro React",
         "descricao": "Sistema de cadastro com operações CRUD em React",
-        "texto": "Sistema de cadastro com operações CRUD, desenvolvido em React com gerenciamento de estado eficiente.",
+        "texto": "Sistema de cadastro desenvolvido em React como evolução do projeto CRUD JavaScript, implementando operações CRUD completas com gerenciamento de estado eficiente via hooks. O projeto explora conceitos de componentização, props, estado local e ciclo de vida dos componentes. Desenvolvido para consolidar conhecimentos em React e comparar abordagens entre JavaScript puro e frameworks modernos.",
         "URL": "https://sistema-cadastro-react.vercel.app/",
         "tags": [
             "React",
@@ -103,12 +106,11 @@
             "CSS"
         ]
     },
-    
     {
         "id": 8,
         "titulo": "Formulário Validado",
         "descricao": "Formulário com validação em tempo real",
-        "texto": "Formulário com validação em tempo real, focado em experiência do usuário e interações fluidas.",
+        "texto": "Formulário desenvolvido em JavaScript puro com validação em tempo real e feedbacks visuais imediatos. Implementa validação de campos obrigatórios, formatação automática, verificação de padrões (email, telefone) e mensagens de erro dinâmicas. O projeto foca em experiência do usuário otimizada, com interações fluidas e design responsivo para diferentes dispositivos.",
         "URL": "https://form-validado.vercel.app/",
         "tags": [
             "JavaScript",
@@ -120,7 +122,7 @@
         "id": 9,
         "titulo": "Site Eletricista",
         "descricao": "Site institucional para eletricista autônomo",
-        "texto": "Site institucional simples para eletricista autônomo, com design limpo e informações claras.",
+        "texto": "Site institucional desenvolvido para eletricista autônomo como projeto de estudos em desenvolvimento web básico. Implementa design limpo e profissional, seções de serviços, portfólio de trabalhos e formulário de contato. O projeto explora conceitos de layout responsivo, acessibilidade web e otimização para mecanismos de busca (SEO básico).",
         "URL": "https://projeto-eletricista.vercel.app/",
         "tags": [
             "HTML",
@@ -132,7 +134,7 @@
         "id": 10,
         "titulo": "Bootstrap Raiz",
         "descricao": "Projeto com layouts responsivos em Bootstrap",
-        "texto": "Projeto focado em praticar layouts responsivos utilizando Bootstrap como framework principal.",
+        "texto": "Projeto desenvolvido para dominar o framework Bootstrap e suas funcionalidades de grid system, componentes e utilitários. Implementa layouts responsivos complexos, navegação adaptativa e componentes interativos. O projeto explora conceitos de mobile-first design, breakpoints responsivos e customização de temas Bootstrap.",
         "URL": "https://prejeto-raiz-bootstrap.vercel.app/",
         "tags": [
             "Bootstrap",
@@ -144,7 +146,7 @@
         "id": 11,
         "titulo": "Apple Hub",
         "descricao": "Clone da página da Apple com design moderno",
-        "texto": "Clone da página da Apple com design moderno e responsivo, explorando técnicas avançadas de UI/UX.",
+        "texto": "Clone da página da Apple desenvolvido como projeto de estudos para dominar técnicas avançadas de UI/UX e CSS. Implementa design pixel-perfect, animações suaves, layout responsivo e interações modernas. O projeto explora conceitos de design minimalista, tipografia avançada, uso de gradientes e efeitos visuais sofisticados.",
         "URL": "https://site-apple--delta.vercel.app/",
         "tags": [
             "HTML",
@@ -156,7 +158,7 @@
         "id": 12,
         "titulo": "WhatsApp Clone",
         "descricao": "Interface inspirada no WhatsApp",
-        "texto": "Interface inspirada no WhatsApp, desenvolvida para praticar conceitos de UI/UX e front-end.",
+        "texto": "Interface inspirada no WhatsApp desenvolvida para praticar conceitos avançados de UI/UX e replicação de interfaces complexas. Implementa layout de chat, sidebar de conversas, status online e design responsivo. O projeto explora técnicas de CSS Grid, Flexbox e JavaScript para criar uma experiência similar ao aplicativo original.",
         "URL": "https://site-whpp.vercel.app/",
         "tags": [
             "HTML",
