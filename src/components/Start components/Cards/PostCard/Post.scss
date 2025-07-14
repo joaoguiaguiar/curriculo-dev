@@ -1,3 +1,4 @@
+
 .projeto-card {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 12px;
@@ -38,14 +39,14 @@
 }
 
 .card-content {
-  padding: 1.25rem;
+  padding: 1.25rem; 
   flex-grow: 1;
   display: flex;
   flex-direction: column;
 }
 
 .card-title {
-  font-size: 1.1rem;
+  font-size: 1.1rem; 
   font-weight: 600;
   margin-bottom: 0.75rem;
   color: #fff;
@@ -130,17 +131,12 @@
   z-index: 1000;
   padding: 1rem;
   animation: fadeIn 0.3s ease;
-  overscroll-behavior: contain;
+  overscroll-behavior: contain; 
 }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 .details-container {
@@ -155,19 +151,12 @@
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.1);
   animation: slideUp 0.4s ease;
-  position: relative;
+  position: relative; 
 }
 
 @keyframes slideUp {
-  from {
-    transform: translateY(30px);
-    opacity: 0;
-  }
-
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
+  from { transform: translateY(30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
 }
 
 .details-header {
@@ -180,7 +169,7 @@
   top: 0;
   background: #0f1724;
   z-index: 10;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 .details-title {
@@ -213,18 +202,17 @@
 }
 
 .details-content {
-  padding: 1rem;
-  overflow: auto;
-  max-height: calc(95vh - 150px);
+  padding: 1.5rem;
+  overflow-y: scroll !important;
+  max-height: calc(150vh - 145px); 
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
+  padding-top: 7rem;
   margin-bottom: 180px;
-  padding-bottom: 180px;
+  padding-bottom: 100px;
+
 
   >* {
-    margin-top: 0 !important;
-    margin-bottom: 0.1rem !important;
 
     &:last-child {
       margin-bottom: 0 !important;
@@ -232,24 +220,25 @@
   }
 
   .details-subtitle {
-    margin-bottom: 1rem !important;
+    margin-bottom: 2rem !important;
   }
 
   .details-text,
   .details-tags,
   .details-repositorio {
-    margin-bottom: 0.2rem !important;
+    margin-bottom: 0.5rem !important;
   }
+
 }
 
 .details-tecnologias {
-  position: relative;
+  position: relative; 
   bottom: -3rem;
-  margin-top: auto;
+  margin-top: auto; 
   padding-bottom: 65px;
 }
 
-.details-subtitle {
+.details-subtitle{
   text-align: center;
   padding-top: 0.5rem;
 }
@@ -282,24 +271,7 @@
   background: rgba(79, 172, 254, 0.7);
 }
 
-@media (min-width: 768px) {
-  .details-content {
-    flex-direction: row;
-    gap: 2rem;
-  }
-}
 
-.details-image-container {
-  flex: 0 0 100%;
-  margin-bottom: 1.5rem;
-}
-
-@media (min-width: 768px) {
-  .details-image-container {
-    flex: 0 0 45%;
-    margin-bottom: 0;
-  }
-}
 
 .details-image {
   width: 100%;
@@ -382,7 +354,16 @@
   color: #fff;
 }
 
-/* Responsividade */
+.details-repositorio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+
+
 @media (max-width: 768px) {
   .details-container {
     max-width: 100%;
@@ -407,7 +388,12 @@
     padding: 1rem;
   }
 
+ .details-info{
+  padding-top: 3rem;
+  padding-bottom: 7rem;
+ }
 
+  
 }
 
 
@@ -418,48 +404,41 @@
     margin-right: auto;
     width: 100%;
   }
-
+  
   .card-title {
     font-size: 1rem;
   }
-
+  
   .card-btn {
     padding: 0.4rem 0.7rem;
     font-size: 0.75rem;
   }
-
+  
   .details-content {
     padding: 1rem;
   }
-
-  .details-header,
+  
+  .details-header, 
   .details-footer {
     padding: 1rem;
   }
 }
 
-.details-repositorio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+@media (min-width: 768px) {
+  .details-content {
+    flex-direction: row;
+    gap: 2rem;
+  }
 }
 
-.details-repo-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: #007bff;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease;
+.details-image-container {
+  flex: 0 0 100%;
+  margin-bottom: 1.5rem;
+}
 
-  &:hover {
-    color: #0056b3;
-    text-decoration: underline;
-  }
-
-  svg {
-    flex-shrink: 0;
+@media (min-width: 768px) {
+  .details-image-container {
+    flex: 0 0 45%;
+    margin-bottom: 0;
   }
 }
