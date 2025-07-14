@@ -106,16 +106,7 @@ const ComponenteCard = ({ post, isHovered }) => {
             {showDetails && (
                 <div className="details-overlay">
                     <div className="details-container" ref={detailsRef}>
-                        <div className="details-header">
-                            <h2 className="details-title">{post.titulo}</h2>
-                            <button
-                                className="details-close"
-                                onClick={closeDetails}
-                                aria-label="Fechar"
-                            >
-                                ×
-                            </button>
-                        </div>
+                    
 
                         <div className="details-content custom-scrollbar">
                             <div className="details-info">
