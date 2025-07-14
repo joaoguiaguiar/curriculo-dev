@@ -148,7 +148,7 @@
   border-radius: 12px;
   width: 100%;
   max-width: 900px;
-  max-height: 90vh;
+  max-height: 110%; 
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -181,6 +181,7 @@
   background: #0f1724;
   z-index: 10;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
 }
 
 .details-title {
@@ -205,6 +206,8 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  flex-shrink: 0;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .details-close:hover {
@@ -212,25 +215,8 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-
-
 .details-repositorio{
   padding-bottom: 30px!important;
-}
-
-.details-container {
-  background: #0f1724;
-  border-radius: 12px;
-  width: 100%;
-  max-width: 900px;
-  max-height: 110%; 
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  animation: slideUp 0.4s ease;
-  position: relative;
 }
 
 .details-content {
@@ -258,7 +244,6 @@
   }
 }
 
-
 .details-tecnologias {
   position: relative;
   bottom: -3rem;
@@ -278,7 +263,6 @@
   margin-bottom: 1.5rem;
   text-align: start;
   width: 100%;
-
 }
 
 .custom-scrollbar::-webkit-scrollbar {
@@ -299,8 +283,6 @@
   background: rgba(79, 172, 254, 0.7);
 }
 
-
-
 .details-image {
   width: 100%;
   border-radius: 8px;
@@ -318,8 +300,6 @@
   margin: 0 0 1rem;
   color: #4facfe;
 }
-
-
 
 .details-tags {
   display: flex;
@@ -389,9 +369,6 @@
   flex-direction: column;
   padding-bottom: 1rem;
 }
-
-
-
 
 @media (max-width: 576px) {
   .projeto-card {
