@@ -431,18 +431,27 @@
 
 
 @media (max-width: 767px) {
-  .details-content {
-    padding-top: 6rem;
-
-    .details-text,
-    .details-tags,
-    .details-repositorio {
-      margin-bottom: 1rem !important;
+    .details-title {
+        font-size: 1.3rem !important;
+        text-align: start !important;
+        color: #4facfe !important;
+        position: relative !important;
+        z-index: 2 !important;
+        display: block !important;
+        font-weight: bold !important;
     }
 
-
-  }
-
-
-
+    .details-close{
+      color: gray !important;
+    }
+    
+    .details-content {
+        padding-top: 6rem;
+        
+        .details-text,
+        .details-tags,
+        .details-repositorio {
+            margin-bottom: 1rem !important;
+        }
+    }
 }
