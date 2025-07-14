@@ -93,12 +93,14 @@
         "titulo": "Projeto Calendário com Recoil",
         "descricao": "Gerenciamento de Estado Avançado com Recoil",
         "texto": "Aplicação de calendário interativo desenvolvida com React, Recoil e TypeScript para praticar gerenciamento de estado global de forma moderna e eficiente. O projeto inclui formulário com validação, listagem de eventos, drag and drop e integração com a biblioteca Kalend para visualização. Foco em arquitetura limpa, responsividade e controle de estado escalável.",
-        "URL": "https://recoil-state-calendar.vercel.app/",
+        "URL": "https://recoil-calendar-state.vercel.app/",
         "tags": [
             "React",
             "TypeScript",
             "Recoil",
-            "SCSS"
+            "SCSS",
+            "Formik",
+            "Yup"
         ],
         "repositorio": "https://github.com/joaoguiaguiar/recoil-state-calendar"
     },
