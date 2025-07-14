@@ -215,12 +215,12 @@
 .details-content {
   padding: 1rem;
   overflow: auto;
-  max-height: calc(95vh - 145px);
+  max-height: calc(95vh - 150px);
   display: flex;
   flex-direction: column;
   padding-top: 100px;
   margin-bottom: 180px;
-  padding-bottom: 110px;
+  padding-bottom: 150px;
 
   >* {
     margin-top: 0 !important;
