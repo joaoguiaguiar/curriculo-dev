@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './Cards.module.scss';
 import posts from '../../../json/post.json';
-import ProjetoCard from './PostCard';
+import ComponenteCard from './PostCard';
 
 const Cards = () => {
     const [activeFilter, setActiveFilter] = useState('all');
@@ -28,7 +28,7 @@ const Cards = () => {
                             onMouseEnter={() => setHoveredProject(post.id)}
                             onMouseLeave={() => setHoveredProject(null)}
                         >
-                            <ProjetoCard
+                            <ComponenteCard
                                 post={post}
                                 isHovered={hoveredProject === post.id}
                             />

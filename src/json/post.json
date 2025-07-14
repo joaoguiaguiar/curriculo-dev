@@ -10,7 +10,8 @@
             "WordPress",
             "JavaScript",
             "CSS"
-        ]
+        ],
+        "repositorio": "https://github.com/joaoguiaguiar/desenvolvimento-de-tema-e-plugin"
     },
     {
         "id": 2,
@@ -23,7 +24,8 @@
             "CSS",
             "JavaScript",
             "API StaticForms"
-        ]
+        ],
+        "repositorio": "https://github.com/joaoguiaguiar/site-freelancer-empresa-rh-dp"
     },
     {
         "id": 3,
@@ -40,7 +42,8 @@
             "Styled Components",
             "Bootstrap",
             "React Router DOM"
-        ]
+        ],
+        "repositorio": "https://github.com/joaoguiaguiar/projeto-e-commerce"
     },
     {
         "id": 4,
@@ -53,7 +56,8 @@
             "TypeScript",
             "CSS",
             "MyJSONSERVER (API)"
-        ]
+        ],
+        "repositorio": "https://github.com/joaoguiaguiar/devs-stream"
     },
     {
         "id": 5,
@@ -66,7 +70,8 @@
             "TypeScript",
             "Zod",
             "React Hook Form"
-        ]
+        ],
+        "repositorio": "https://github.com/joaoguiaguiar/devs-stream"
     },
     {
         "id": 13,
@@ -80,7 +85,22 @@
             "Vite",
             "Tailwind CSS",
             "Lucide React"
-        ]
+        ],
+        "repositorio": "https://github.com/joaoguiaguiar/agendamento-consulta"
+    },
+      {
+        "id": 14,
+        "titulo": "Projeto Calendário com Recoil",
+        "descricao": "Gerenciamento de Estado Avançado com Recoil",
+        "texto": "Aplicação de calendário interativo desenvolvida com React, Recoil e TypeScript para praticar gerenciamento de estado global de forma moderna e eficiente. O projeto inclui formulário com validação, listagem de eventos, drag and drop e integração com a biblioteca Kalend para visualização. Foco em arquitetura limpa, responsividade e controle de estado escalável.",
+        "URL": "https://recoil-state-calendar.vercel.app/",
+        "tags": [
+            "React",
+            "TypeScript",
+            "Recoil",
+            "SCSS"
+        ],
+        "repositorio": "https://github.com/joaoguiaguiar/recoil-state-calendar"
     },
     {
         "id": 6,
@@ -92,7 +112,8 @@
             "JavaScript",
             "HTML",
             "CSS"
-        ]
+        ],
+        "repositorio": "https://github.com/joaoguiaguiar/crud-de-objetos"
     },
     {
         "id": 7,
@@ -104,7 +125,8 @@
             "React",
             "JavaScript",
             "CSS"
-        ]
+        ],
+        "repositorio": "https://github.com/joaoguiaguiar/sistema-de-cadastro-react"
     },
     {
         "id": 8,
@@ -116,7 +138,8 @@
             "JavaScript",
             "HTML",
             "CSS"
-        ]
+        ],
+        "repositorio": "https://github.com/joaoguiaguiar/validacao-formulario"
     },
     {
         "id": 9,
@@ -128,7 +151,8 @@
             "HTML",
             "CSS",
             "JavaScript"
-        ]
+        ],
+        "repositorio": "https://github.com/joaoguiaguiar/validacao-formulario"
     },
     {
         "id": 10,
@@ -140,7 +164,8 @@
             "Bootstrap",
             "HTML",
             "CSS"
-        ]
+        ],
+        "repositorio": "https://github.com/joaoguiaguiar/projeto-bootstrap"
     },
     {
         "id": 11,
@@ -152,7 +177,8 @@
             "HTML",
             "CSS",
             "JavaScript"
-        ]
+        ],
+        "repositorio": "https://github.com/joaoguiaguiar/site-apple"
     },
     {
         "id": 12,
@@ -164,6 +190,7 @@
             "HTML",
             "CSS",
             "JavaScript"
-        ]
+        ],
+        "repositorio": "https://github.com/joaoguiaguiar/web-site-whatsapp-ficticio"
     }
 ]
