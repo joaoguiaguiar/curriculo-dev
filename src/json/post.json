@@ -1,10 +1,10 @@
 [
     {
         "id": 1,
-        "titulo": "Museus Castro Maya",
+        "titulo": "Museu Imperial",
         "descricao": "Tema WordPress para museus do IBRAM com painel administrativo customizado",
         "texto": "Desenvolvido como parte do meu trabalho no IBRAM, este projeto surgiu da necessidade de substituir temas antigos vulneráveis nos sites institucionais. Utilizando o tema Blocksy (compatível com o plugin Tainacan), criei um tema filho altamente customizado, com fidelidade visual, estabilidade e flexibilidade. Implementei menus integrados ao WordPress, widgets configuráveis via painel, suporte a cores customizadas e layout responsivo. O projeto exigiu domínio avançado de PHP para garantir integração total com o tema base e reutilização eficiente em toda a rede de museus.",
-        "URL": "https://museuscastromaya.museus.gov.br/",
+        "URL": "https://museuimperial.museus.gov.br/",
         "tags": [
             "PHP",
             "WordPress",
@@ -26,6 +26,22 @@
             "API StaticForms"
         ],
         "repositorio": "https://github.com/joaoguiaguiar/site-freelancer-empresa-rh-dp"
+    },
+      {
+        "id": 15,
+        "titulo": "Freelancer – Empresa Maq Soluções Empresariais",
+        "descricao": "Website Institucional – Empresa de Contabilidade",
+        "texto": "Projeto desenvolvido como trabalho freelancer para a Maq Soluções Empresariais, empresa de contabilidade. Envolveu desde o levantamento de requisitos até o deploy final, passando por design, desenvolvimento e integração de funcionalidades. O site foi construído com HTML5, CSS3, JavaScript (ES6+) e Bootstrap 5, sendo totalmente responsivo e moderno. Inclui integração com StaticForms API para captação de leads, botão de WhatsApp com mensagem automática, validação assíncrona de formulários, feedback via modal e animações suaves com AOS. Hospedado na Hostinger, garante desempenho, segurança e manutenção contínua.",
+        "URL": "https://maqsolucoes.com/",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Bootstrap",
+            "AOS",
+            "StaticForms"
+        ],
+        "repositorio": "https://github.com/joaoguiaguiar/web-site-whatsapp-ficticio"
     },
     {
         "id": 3,
@@ -88,7 +104,7 @@
         ],
         "repositorio": "https://github.com/joaoguiaguiar/agendamento-consulta"
     },
-      {
+    {
         "id": 14,
         "titulo": "Projeto Calendário com Recoil",
         "descricao": "Gerenciamento de Estado Avançado com Recoil",
