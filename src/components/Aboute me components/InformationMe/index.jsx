@@ -34,9 +34,9 @@ const InformacoesModernizadas = () => {
             {/* Texto introdutório */}
             <div className={styles.intro}>
                 <p>
-                    Formado em <strong>Análise e Desenvolvimento de Sistemas</strong> pelo UDF (2024),
-                    com foco em desenvolvimento web. Atuo como <strong>Desenvolvedor Full Stack</strong>,
-                    com mais de 2 anos na construção de aplicações web, sempre buscando aprimorar
+                    Formado em <b>Análise e Desenvolvimento de Sistemas</b> pelo UDF (2024),
+                    com foco em desenvolvimento web. Atuo como <b>Desenvolvedor Full Stack</b>,
+                    com mais de <b>2 anos</b> na construção de aplicações web, sempre buscando aprimorar
                     minhas habilidades e contribuir para projetos inovadores, aliando eficiência
                     técnica às boas práticas de desenvolvimento.
                 </p>
@@ -50,7 +50,7 @@ const InformacoesModernizadas = () => {
                     </div>
                     <div className={styles.timelineContent}>
                         <h3>Formação Acadêmica</h3>
-                        <p>Formado em <strong>Análise e Desenvolvimento de Sistemas</strong> pelo UDF (2024)</p>
+                        <p>Formado em <b>Análise e Desenvolvimento de Sistemas</b> pelo UDF (2024)</p>
                     </div>
                 </div>
 
@@ -60,7 +60,7 @@ const InformacoesModernizadas = () => {
                     </div>
                     <div className={styles.timelineContent}>
                         <h3>Experiência Profissional</h3>
-                        <p>Mais de <strong>2 anos</strong> na construção de aplicações web como Desenvolvedor Full Stack</p>
+                        <p>Mais de <b>2 anos</b> na construção de aplicações web como <b>Desenvolvedor Full Stack</b></p>
                     </div>
                 </div>
 
@@ -70,13 +70,16 @@ const InformacoesModernizadas = () => {
                     </div>
                     <div className={styles.timelineContent}>
                         <h3>Atuação Atual</h3>
-                        <p><strong>Analista de Desenvolvimento Jr na IOS Informática, Organização e Sistemas Ltda</strong> - Atuação como desenvolvedor no IBRAM responsável pelo desenvolvimento de sites institucionais seguindo padrões governamentais.</p>
+                        <p>
+                            <b>Analista de Desenvolvimento Jr na IOS Informática, Organização e Sistemas Ltda</b> -
+                            Atuação como desenvolvedor no <b>IBRAM</b> responsável pelo desenvolvimento de sites institucionais seguindo padrões governamentais.
+                        </p>
                     </div>
                 </div>
             </div>
 
             <div className={styles.section_title_experiencia}>
-                <h2 className={styles.section_title_experiencia}>experience</h2>
+                <h2 className={styles.section_title_experiencia}>Experience</h2>
             </div>
 
             {/* Cards informativos */}
@@ -88,7 +91,13 @@ const InformacoesModernizadas = () => {
                     <div className={styles.cardIcon}>⚛️</div>
                     <h3>Desenvolvimento React Moderno</h3>
                     <div className={styles.cardContent}>
-                        <p>Criação de aplicações modernas usando React, TypeScript, hooks avançados, gerenciamento de estado com Context API, Recoil e Redux, além de testes com Jest e React Testing Library. Alguns projetos para destacar são: site de e-commerce envolvendo CRUD, barra de navegação e autenticação de usuários; Plataforma de vídeos desenvolvida com React e TypeScript como projeto de estudos, implementando funcionalidades de listagem e cadastro de vídeos por meio de requisições GET e POST utilizando MyJSONServer como API mock; projetos que utilizam ferramentas modernas de formulário como React Hook Forms, Formik, e para validação de dados usando Zod e Yup entre outros projetos que envolvem sistema de cadastro e eventos. Possuo experiência também em consumo de APIs REST com React Query e consultas com GraphQL.</p>
+                        <p>
+                            Criação de aplicações modernas usando <b>React</b>, <b>TypeScript</b>, <b>hooks avançados</b> e gerenciamento de estado com <b>Context API</b>, <b>Recoil</b> e <b>Redux</b>, além de testes com <b>Jest</b> e <b>React Testing Library</b>. Entre os projetos de destaque:
+                            <b>site de e-commerce</b> com CRUD completo, barra de navegação e autenticação de usuários;
+                            <b>plataforma de vídeos</b> desenvolvida como projeto de estudo, implementando listagem e cadastro de vídeos; e projetos utilizando formulários avançados com <b>React Hook Form</b> e <b>Formik</b>, validados com <b>Zod</b> e <b>Yup</b>.
+                            Também possuo experiência prática em consumir dados de <b>APIs REST</b> e realizar consultas com <b>GraphQL</b>.
+                        </p>
+
                     </div>
                 </div>
 
@@ -99,7 +108,10 @@ const InformacoesModernizadas = () => {
                     <div className={styles.cardIcon}>💼</div>
                     <h3>Freelancer - Vendas de Sites</h3>
                     <div className={styles.cardContent}>
-                        <p>Experiência em projetos freelancer desenvolvendo sites institucionais. Os dois projetos já disponíveis em meu GitHub foram desenvolvidos em código puro usando HTML, CSS e JavaScript. Nesses projetos fiz todo o levantamento de requisitos até chegar no resultado final.</p>
+                        <p>
+                            Experiência em projetos freelancer desenvolvendo <b>sites institucionais</b>, desde o levantamento de requisitos até a entrega final, todos disponíveis no meu <b>GitHub</b> e construídos com <b>HTML</b>, <b>CSS</b> e <b>JavaScript</b>.
+                        </p>
+
                     </div>
                 </div>
 
@@ -110,7 +122,9 @@ const InformacoesModernizadas = () => {
                     <div className={styles.cardIcon}>🎯</div>
                     <h3>Especialização WordPress</h3>
                     <div className={styles.cardContent}>
-                        <p>Criação de tema e plugins, com destaque para o child theme <b>Ibram 2025</b> e dois plugins feitos para o IBRAM, que hoje estão <b>ativos</b> em 18 sites de museus ligados à instituição. Todo o desenvolvimento exigiu um <b>sólido domínio</b> de PHP e da arquitetura do WordPress, com integração em rede de sites governamentais. Repositório disponível no meu GitHub.</p>
+                        <p>
+                            Criação de tema e plugins, destaque para o child theme <b>Ibram 2025</b> e dois plugins feitos para o <b>IBRAM</b>, atualmente ativos em 18 sites de museus ligados à instituição. O trabalho demandou profundo conhecimento de <b>PHP</b> e da arquitetura do <b>WordPress</b>.
+                        </p>
                     </div>
                 </div>
 
@@ -121,7 +135,9 @@ const InformacoesModernizadas = () => {
                     <div className={styles.cardIcon}>🗄️</div>
                     <h3>Experiência com Banco de Dados</h3>
                     <div className={styles.cardContent}>
-                        <p>Sólida experiência em modelagem e consultas SQL <strong>com MySQL</strong> tanto na formação acadêmica quanto no trabalho atual, utilizando MySQL e MongoDB em projetos reais e estudos avançados.</p>
+                        <p>
+                            Sólida experiência em modelagem e consultas <b>SQL</b> com <b>MySQL</b>, tanto na formação acadêmica quanto no trabalho atual, utilizando também <b>MongoDB</b> em projetos reais e estudos avançados.
+                        </p>
                     </div>
                 </div>
 
@@ -132,7 +148,9 @@ const InformacoesModernizadas = () => {
                     <div className={styles.cardIcon}>🚀</div>
                     <h3>DevOps & Deploy</h3>
                     <div className={styles.cardContent}>
-                        <p>Experiência prática com migração de portais, deploy via SSH e GitLab, gerenciamento no Rancher (Kubernetes) e ambientes de produção em servidores governamentais <strong>do IBRAM</strong>.</p>
+                        <p>
+                            Experiência prática com <b>migração de portais</b>, <b>deploy via SSH e GitLab</b>, gerenciamento no <b>Rancher (Kubernetes)</b> e ambientes de produção em servidores governamentais do <b>IBRAM</b>.
+                        </p>
                     </div>
                 </div>
 
@@ -143,7 +161,9 @@ const InformacoesModernizadas = () => {
                     <div className={styles.cardIcon}>👥</div>
                     <h3>Capacitação de Equipes</h3>
                     <div className={styles.cardContent}>
-                        <p>Treinamento de equipes para gestão de sites WordPress, garantindo autonomia e segurança na administração de conteúdos, além de documentação técnica detalhada.</p>
+                        <p>
+                            Treinamento de equipes para gestão de sites <b>WordPress</b>, garantindo autonomia e segurança na administração de conteúdos, além de documentação técnica detalhada.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -153,12 +173,8 @@ const InformacoesModernizadas = () => {
                 <div className={styles.highlightContent}>
                     <h2>Sempre em Evolução</h2>
                     <p>
-                        Movido por desafios e aprendizado contínuo, busco constantemente evoluir como
-                        profissional e contribuir com projetos que gerem impacto real através da tecnologia.
-                        Acredito que a combinação entre conhecimento técnico sólido e paixão pelo que faço
-                        resulta em soluções inovadoras e eficientes. Atualmente faço cursos na Alura, o que vem
-                        trazendo um grande avanço no meu conhecimento. Meu foco atual está em Node.js, onde estou seguindo a
-                        trilha de estudos deles.
+                        Movido por desafios e aprendizado contínuo, busco evoluir como profissional e contribuir com projetos que gerem impacto real através da tecnologia.
+                        Atualmente faço cursos na <b>Alura</b> e meu foco está em <b>Node.js</b>, seguindo a trilha de estudos deles.
                     </p>
                     <div className={styles.highlightStats}>
                         <div className={styles.stat}>

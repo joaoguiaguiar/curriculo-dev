@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 
 const Carrossel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  
+
   // Tecnologias principais - linguagens e frameworks importantes
   const mainSkills = [
     { name: 'React', icon: '../IMG/skils/react logo.png', color: '#61DAFB' },
@@ -16,14 +16,20 @@ const Carrossel = () => {
 
   // Tecnologias complementares 
   const complementarySkills = [
-    'HTML5', 'CSS3', 'Bootstrap', 'Tailwind CSS', 'WordPress', 'Xamp' , 'WampServer' , 'Rancher' , 'MySQL workbench', 'WinSCP', 'GitHub','GitLab'
+    'HTML5', 'CSS3', 'Bootstrap', 'Tailwind CSS', 'WordPress',
+    'Xamp', 'WampServer', 'Rancher', 'WinSCP',
+    'GitHub', 'GitLab',
+
+    // Bancos de dados
+    'SQL', 'MySQL', 'MongoDB', 'MySQL Workbench'
   ];
+
 
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((current) => (current + 1) % mainSkills.length);
     }, 4000);
-    
+
     return () => clearInterval(interval);
   }, [mainSkills.length]);
 
@@ -46,20 +52,20 @@ const Carrossel = () => {
           <h2 className={styles.section_title}>Tech Stack</h2>
           <div className={styles.section_subtitle}>Tecnologias que utilizo</div>
         </div>
-        
+
         {/* Grid principal */}
         <div className={styles.skills_grid}>
           {mainSkills.map((skill, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className={`${styles.skill_card} ${index === activeIndex ? styles.active : ''}`}
-              style={{'--accent-color': skill.color}}
+              style={{ '--accent-color': skill.color }}
               onClick={() => goToSlide(index)}
             >
               <div className={styles.skill_icon_wrapper}>
-                <img 
-                  src={skill.icon} 
-                  alt={`${skill.name} logo`} 
+                <img
+                  src={skill.icon}
+                  alt={`${skill.name} logo`}
                   className={styles.skill_icon}
                 />
               </div>
@@ -75,22 +81,22 @@ const Carrossel = () => {
               <polyline points="15 18 9 12 15 6"></polyline>
             </svg>
           </button>
-          
+
           <div className={styles.carousel_wrapper}>
-            <div 
-              className={styles.carousel_track} 
+            <div
+              className={styles.carousel_track}
               style={{ transform: `translateX(-${activeIndex * 100}%)` }}
             >
               {mainSkills.map((skill, index) => (
                 <div key={index} className={styles.carousel_slide}>
                   <div className={styles.skill_spotlight}>
-                    <div 
+                    <div
                       className={styles.skill_spotlight_icon}
-                      style={{'--skill-color': skill.color}}
+                      style={{ '--skill-color': skill.color }}
                     >
-                      <img 
-                        src={skill.icon} 
-                        alt={`${skill.name} logo`} 
+                      <img
+                        src={skill.icon}
+                        alt={`${skill.name} logo`}
                         className={styles.spotlight_image}
                       />
                     </div>
@@ -100,18 +106,18 @@ const Carrossel = () => {
               ))}
             </div>
           </div>
-          
+
           <button className={`${styles.carousel_arrow} ${styles.next}`} onClick={nextSlide}>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <polyline points="9 18 15 12 9 6"></polyline>
             </svg>
           </button>
         </div>
-        
+
         {/* Indicadores */}
         <div className={styles.carousel_indicators}>
           {mainSkills.map((_, index) => (
-            <button 
+            <button
               key={index}
               className={`${styles.indicator} ${index === activeIndex ? styles.active : ''}`}
               onClick={() => goToSlide(index)}
