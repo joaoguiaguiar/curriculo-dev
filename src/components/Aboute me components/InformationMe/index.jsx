@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import curriculo from '../../../../public/documents/Joao-Aguiar-DesenvolvedorWeb.pdf'
 import styles from './Information.module.scss';
 
 const InformacoesModernizadas = () => {
@@ -176,6 +177,16 @@ const InformacoesModernizadas = () => {
                         Movido por desafios e aprendizado contínuo, busco evoluir como profissional e contribuir com projetos que gerem impacto real através da tecnologia.
                         Atualmente faço cursos na <b>Alura</b> e meu foco está em <b>Node.js</b>, seguindo a trilha de estudos deles.
                     </p>
+
+                    <div style={{ marginBottom: '2rem' }}>
+                        <a
+                            href={curriculo}
+                            download="Joao-Aguiar-DesenvolvedorWeb.pdf"
+                            className={styles.downloadButton}
+                        >
+                            📄 Baixar Currículo Completo
+                        </a>
+                    </div>
                     <div className={styles.highlightStats}>
                         <div className={styles.stat}>
                             <span className={styles.statNumber}>2+</span>

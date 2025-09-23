@@ -17,7 +17,7 @@ const Carrossel = () => {
   // Tecnologias complementares 
   const complementarySkills = [
     'HTML5', 'CSS3', 'Bootstrap', 'Tailwind CSS', 'WordPress',
-    'Xamp', 'WampServer', 'Rancher', 'WinSCP',
+    'XAMPP ', 'WampServer', 'Rancher', 'WinSCP',
     'GitHub', 'GitLab',
 
     // Bancos de dados

@@ -6,11 +6,13 @@ import PaginaPadrao from './pages/PaginaPadrao';
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe'; 
 import NotRouter from './pages/404.jsx'; 
+import ScrollToTop from './components/scroll/ScrollToTop.jsx';
 
 
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop/>
       <Routes>
         <Route path='/' element={<PaginaPadrao />}>
           <Route index element={<Home />} />
