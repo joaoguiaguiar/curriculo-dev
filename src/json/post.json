@@ -66,7 +66,7 @@
         "titulo": "DevsStream",
         "descricao": "Plataforma de vídeos com categorias e pesquisa",
         "texto": "Plataforma de vídeos desenvolvida com React e TypeScript como projeto de estudos, implementando funcionalidades de listagem e cadastro de vídeos por meio de requisições GET e POST utilizando MyJSONServer como API mock. Inclui sistema de categorias dinâmicas, funcionalidade de pesquisa em tempo real e interface para publicação de conteúdo. O projeto explora conceitos de consumo de APIs, gerenciamento de estado e componentização avançada em React.",
-        "URL": "https://devstream-sand.vercel.app/",
+        "URL": "https://devstream-react.vercel.app/",
         "tags": [
             "React",
             "TypeScript",
