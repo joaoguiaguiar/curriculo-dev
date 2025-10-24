@@ -124,7 +124,7 @@ const InformacoesModernizadas = () => {
                     <h3>Especialização WordPress</h3>
                     <div className={styles.cardContent}>
                         <p>
-                            Criação de tema e plugins, destaque para o child theme <b>Ibram 2025</b> e dois plugins feitos para o <b>IBRAM</b>, atualmente ativos em 18 sites de museus ligados à instituição. O trabalho demandou profundo conhecimento de <b>PHP</b> e da arquitetura do <b>WordPress</b>.
+                            Criação de tema e plugins, destaque para o child theme <b>Ibram 2025</b> e dois plugins feitos para o <b>Instituto Brasileiro de Museus(IBRAM)</b>, atualmente ativos em 18 sites de museus ligados à instituição. O trabalho demandou profundo conhecimento de <b>PHP</b> e da arquitetura do <b>WordPress</b>.
                         </p>
                     </div>
                 </div>
@@ -137,7 +137,7 @@ const InformacoesModernizadas = () => {
                     <h3>Experiência com Banco de Dados</h3>
                     <div className={styles.cardContent}>
                         <p>
-                            Sólida experiência em modelagem e consultas <b>SQL</b> com <b>MySQL</b>, tanto na formação acadêmica quanto no trabalho atual, utilizando também <b>MongoDB</b> em projetos reais e estudos avançados.
+                            Sólida experiência em modelagem e consultas <b>SQL</b> com <b>MySQL</b>, incluindo <b>backup e restauração de bases de dados</b>. Atuação tanto na formação acadêmica quanto no trabalho atual, utilizando também <b>MongoDB</b> em projetos reais e estudos avançados.
                         </p>
                     </div>
                 </div>
@@ -150,7 +150,10 @@ const InformacoesModernizadas = () => {
                     <h3>DevOps & Deploy</h3>
                     <div className={styles.cardContent}>
                         <p>
-                            Experiência prática com <b>migração de portais</b>, <b>deploy via SSH e GitLab</b>, gerenciamento no <b>Rancher (Kubernetes)</b> e ambientes de produção em servidores governamentais do <b>IBRAM</b>.
+                            Experiência sólida em <b>migração de portais WordPress</b> entre ambientes (local/produção) e <b>migração de infraestrutura NFS de Windows para Linux via terminal</b>, incluindo configuração de <b>permissões Apache</b>. <b>Deploy via SSH e GitLab</b> e <b>orquestração no Rancher (Kubernetes)</b>.
+                        </p>
+                        <p>
+                            Configuração de <b>pipelines CI/CD</b> para atualização automatizada de imagens Docker e versionamento de PHP. Processos seguindo boas práticas em ambientes de produção de servidores governamentais do <b>IBRAM</b>.
                         </p>
                     </div>
                 </div>
