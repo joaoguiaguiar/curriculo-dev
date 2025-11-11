@@ -149,13 +149,13 @@ const InformacoesModernizadas = () => {
                     <div className={styles.cardIcon}>🚀</div>
                     <h3>DevOps & Deploy</h3>
                     <div className={styles.cardContent}>
-                        <p>
-                            Experiência sólida em <b>migração de portais WordPress</b> entre ambientes (local/produção) e <b>migração de infraestrutura NFS de Windows para Linux via terminal</b>, incluindo configuração de <b>permissões Apache</b>. <b>Deploy via SSH e GitLab</b> e <b>orquestração no Rancher (Kubernetes)</b>.
-                        </p>
-                        <p>
-                            Configuração de <b>pipelines CI/CD</b> para atualização automatizada de imagens Docker e versionamento de PHP. Processos seguindo boas práticas em ambientes de produção de servidores governamentais do <b>IBRAM</b>.
-                        </p>
-                    </div>
+    <p>
+        Experiência sólida em <b>migração de portais WordPress</b> entre ambientes (local e produção) e <b>migração de infraestrutura NFS de Windows para Linux via terminal</b>, incluindo configuração de <b>permissões Apache</b> e de <b>usuários Linux</b>. <b>Deploys via SSH e GitLab</b>, com <b>orquestração no Rancher (Kubernetes)</b>.
+    </p>
+    <p>
+        Atuação em <b>ajustes e manutenção de pipelines CI/CD</b> no GitLab, com atualização de <b>imagens Docker</b> e variáveis de ambiente para <b>deploy automatizado</b>. Processos realizados seguindo <b>boas práticas em ambientes de produção</b> de servidores governamentais do <b>IBRAM</b>.
+    </p>
+</div>
                 </div>
 
                 <div
