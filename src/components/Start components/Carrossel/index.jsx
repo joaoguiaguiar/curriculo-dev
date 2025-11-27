@@ -14,16 +14,13 @@ const Carrossel = () => {
     { name: 'SCSS', icon: '../IMG/skils/logo scss.png', color: '#CD6799' }
   ];
 
-  // Tecnologias complementares 
+  // Tecnologias complementares em uma única linha fluida
   const complementarySkills = [
-    'HTML5', 'CSS3', 'Bootstrap', 'Tailwind CSS', 'WordPress',
-    'XAMPP ', 'WampServer', 'Rancher', 'WinSCP',
-    'GitHub', 'GitLab',
-
-    // Bancos de dados
-    'SQL', 'MySQL', 'MongoDB', 'MySQL Workbench'
+    'HTML5', 'CSS3', 'Bootstrap', 'Tailwind CSS', 
+    'WordPress', 'XAMPP', 'WampServer', 'Rancher', 
+    'MobaXterm', 'GitHub', 'GitLab', 'SQL', 
+    'MySQL', 'MongoDB', 'MySQL Workbench', 
   ];
-
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -126,12 +123,15 @@ const Carrossel = () => {
           ))}
         </div>
 
-        {/* Seção de tecnologias complementares */}
+        {/* Seção complementar - Design simples e fluido */}
         <div className={styles.complementary_section}>
-          <h4 className={styles.complementary_title}>Também trabalho com</h4>
-          <div className={styles.complementary_tags}>
+          <div className={styles.complementary_divider}></div>
+          <p className={styles.complementary_intro}>
+            Também trabalho com
+          </p>
+          <div className={styles.complementary_flow}>
             {complementarySkills.map((skill, index) => (
-              <span key={index} className={styles.complementary_tag}>
+              <span key={index} className={styles.complementary_item}>
                 {skill}
               </span>
             ))}
@@ -143,4 +143,3 @@ const Carrossel = () => {
 };
 
 export default Carrossel;
-

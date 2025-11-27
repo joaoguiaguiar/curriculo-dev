@@ -41,7 +41,6 @@
     font-size: 2.5rem;
     font-weight: 800;
     margin-bottom: 1rem;
-    background-clip: text;
     position: relative;
 
     &::after {
@@ -156,7 +155,6 @@
       }
     }
   }
-
 
   .carousel_container {
     position: relative;
@@ -301,42 +299,76 @@
     }
   }
 
+  // Nova seção complementar - Design minimalista e fluido
   .complementary_section {
-    margin-top: 4rem;
+    margin-top: 5rem;
     text-align: center;
 
-    .complementary_title {
-      font-size: 1.1rem;
-      font-weight: 600;
-      color: #a0aec0;
-      margin-bottom: 1.5rem;
+    .complementary_divider {
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, transparent, #4a90e2, transparent);
+      margin: 0 auto 2rem;
+      border-radius: 2px;
     }
 
-    .complementary_tags {
+    .complementary_intro {
+      font-size: 1rem;
+      color: #718096;
+      margin-bottom: 1.5rem;
+      font-weight: 400;
+      letter-spacing: 0.5px;
+    }
+
+    .complementary_flow {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 0.8rem;
-      max-width: 600px;
+      align-items: center;
+      gap: 1rem 1.5rem;
+      max-width: 900px;
       margin: 0 auto;
+      padding: 2rem;
+      background: rgba(26, 32, 44, 0.3);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      border: 1px solid rgba(74, 144, 226, 0.15);
 
-      .complementary_tag {
-        background: rgba(45, 55, 72, 0.6);
-        backdrop-filter: blur(10px);
-        border: 1px solid rgba(74, 144, 226, 0.2);
-        color: #cbd5e0;
-        padding: 0.5rem 1rem;
-        border-radius: 20px;
-        font-size: 0.9rem;
+      .complementary_item {
+        color: #a0aec0;
+        font-size: 0.95rem;
         font-weight: 500;
+        position: relative;
+        padding: 0.3rem 0;
         transition: all 0.3s ease;
-        white-space: nowrap;
+        cursor: default;
+
+        &::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 0;
+          height: 2px;
+          background: linear-gradient(90deg, #4a90e2, #7bb3f0);
+          transition: width 0.3s ease;
+        }
 
         &:hover {
-          background: rgba(45, 55, 72, 0.8);
-          border-color: rgba(74, 144, 226, 0.4);
-          transform: translateY(-2px);
           color: #e2e8f0;
+          transform: translateY(-2px);
+
+          &::after {
+            width: 100%;
+          }
+        }
+
+        &:not(:last-child)::before {
+          content: '•';
+          position: absolute;
+          right: -0.85rem;
+          color: rgba(74, 144, 226, 0.3);
+          font-size: 0.8rem;
         }
       }
     }
@@ -415,6 +447,19 @@
         }
       }
     }
+
+    .complementary_section {
+      margin-top: 4rem;
+
+      .complementary_flow {
+        padding: 1.5rem;
+        gap: 0.8rem 1.2rem;
+
+        .complementary_item {
+          font-size: 0.9rem;
+        }
+      }
+    }
   }
 
   @media screen and (max-width: 480px) {
@@ -446,12 +491,22 @@
       }
     }
 
-    .complementary_tags {
-      gap: 0.5rem;
+    .complementary_section {
+      .complementary_intro {
+        font-size: 0.9rem;
+      }
 
-      .complementary_tag {
-        font-size: 0.8rem;
-        padding: 0.4rem 0.8rem;
+      .complementary_flow {
+        padding: 1.2rem;
+        gap: 0.6rem 1rem;
+
+        .complementary_item {
+          font-size: 0.85rem;
+
+          &:not(:last-child)::before {
+            right: -0.65rem;
+          }
+        }
       }
     }
   }
