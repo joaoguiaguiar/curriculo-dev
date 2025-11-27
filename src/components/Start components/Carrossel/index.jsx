@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 const Carrossel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
-  // Tecnologias principais - linguagens e frameworks importantes
+  
   const mainSkills = [
     { name: 'React', icon: '../IMG/skils/react logo.png', color: '#61DAFB' },
     { name: 'TypeScript', icon: '../IMG/skils/logo ts.png', color: '#3178C6' },
@@ -14,7 +14,7 @@ const Carrossel = () => {
     { name: 'SCSS', icon: '../IMG/skils/logo scss.png', color: '#CD6799' }
   ];
 
-  // Tecnologias complementares em uma única linha fluida
+  
   const complementarySkills = [
     'HTML5', 'CSS3', 'Bootstrap', 'Tailwind CSS', 
     'WordPress', 'XAMPP', 'WampServer', 'Rancher', 
@@ -71,7 +71,7 @@ const Carrossel = () => {
           ))}
         </div>
 
-        {/* Carrossel spotlight */}
+        {/* Carrossel  */}
         <div className={styles.carousel_container}>
           <button className={`${styles.carousel_arrow} ${styles.prev}`} onClick={prevSlide}>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -123,7 +123,7 @@ const Carrossel = () => {
           ))}
         </div>
 
-        {/* Seção complementar - Design simples e fluido */}
+        {/* Seção complementar */}
         <div className={styles.complementary_section}>
           <div className={styles.complementary_divider}></div>
           <p className={styles.complementary_intro}>
