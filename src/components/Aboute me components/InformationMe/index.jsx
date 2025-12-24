@@ -124,7 +124,10 @@ const InformacoesModernizadas = () => {
                     <h3>Especialização WordPress</h3>
                     <div className={styles.cardContent}>
                         <p>
-                            Criação de tema e plugins, destaque para o child theme <b>Ibram 2025</b> e dois plugins feitos para o <b>Instituto Brasileiro de Museus(IBRAM)</b>, atualmente ativos em 18 sites de museus ligados à instituição. O trabalho demandou profundo conhecimento de <b>PHP</b> e da arquitetura do <b>WordPress</b>.
+                            Atuação no desenvolvimento e manutenção de <b>temas</b> e{' '}
+                            <b>plugins WordPress</b> para projetos institucionais do setor
+                            público, com foco em performance, segurança e boas práticas de
+                            desenvolvimento utilizando <b>PHP</b>.
                         </p>
                     </div>
                 </div>
@@ -149,13 +152,20 @@ const InformacoesModernizadas = () => {
                     <div className={styles.cardIcon}>🚀</div>
                     <h3>DevOps & Deploy</h3>
                     <div className={styles.cardContent}>
-    <p>
-        Experiência sólida em <b>migração de portais WordPress</b> entre ambientes (local e produção) e <b>migração de infraestrutura NFS de Windows para Linux via terminal</b>, incluindo configuração de <b>permissões Apache</b> e de <b>usuários Linux</b>. <b>Deploys via SSH e GitLab</b>, com <b>orquestração no Rancher (Kubernetes)</b>.
-    </p>
-    <p>
-        Atuação em <b>ajustes e manutenção de pipelines CI/CD</b> no GitLab, com atualização de <b>imagens Docker</b> e variáveis de ambiente para <b>deploy automatizado</b>. Processos realizados seguindo <b>boas práticas em ambientes de produção</b> de servidores governamentais do <b>IBRAM</b>.
-    </p>
-</div>
+                        <p>
+                            Atuação em <b>migração de portais WordPress</b> entre ambientes local e produção, além de
+                            <b> migração de infraestrutura NFS</b> de Windows para Linux via terminal, incluindo 
+                            <b> configuração de permissões Apache</b> e <b>gerenciamento de usuários Linux</b>.
+                        </p>
+                        <br />
+                        <p>
+                            Realização de <b>deploys via SSH e GitLab</b>, com ambientes orquestrados em
+                            <b> Kubernetes (Rancher) </b>, atuando também em <b> ajustes e manutenção de pipelines CI/CD </b>
+                            no GitLab, seguindo <b> boas práticas em ambientes de produção governamentais</b>.
+                        </p>
+
+
+                    </div>
                 </div>
 
                 <div

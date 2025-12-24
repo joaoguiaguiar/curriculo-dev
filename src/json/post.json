@@ -1,19 +1,5 @@
 [
     {
-        "id": 1,
-        "titulo": "Museu Imperial",
-        "descricao": "Tema WordPress para museus do IBRAM com painel administrativo customizado",
-        "texto": "Desenvolvido como parte do meu trabalho no IBRAM, este projeto surgiu da necessidade de substituir temas antigos vulneráveis nos sites institucionais. Utilizando o tema Blocksy (compatível com o plugin Tainacan), criei um tema filho altamente customizado, com fidelidade visual, estabilidade e flexibilidade. Implementei menus integrados ao WordPress, widgets configuráveis via painel, suporte a cores customizadas e layout responsivo. O projeto exigiu domínio avançado de PHP para garantir integração total com o tema base e reutilização eficiente em toda a rede de museus.",
-        "URL": "https://museuimperial.museus.gov.br/",
-        "tags": [
-            "PHP",
-            "WordPress",
-            "JavaScript",
-            "CSS"
-        ],
-        "repositorio": "https://github.com/joaoguiaguiar/desenvolvimento-de-tema-e-plugin"
-    },
-    {
         "id": 2,
         "titulo": "Freelancer - Site RH",
         "descricao": "Site para empresa de RH e DP com manutenção contínua",

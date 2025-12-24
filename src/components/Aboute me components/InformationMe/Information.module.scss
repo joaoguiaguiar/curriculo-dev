@@ -142,18 +142,7 @@
     font-weight: 800;
     position: relative;
     
-    &::after {
-        content: '';
-        position: absolute;
-        bottom: -10px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 80px;
-        height: 4px;
-        background: linear-gradient(90deg, #4a90e2, #7bb3f0);
-        border-radius: 2px;
-        box-shadow: 0 0 20px rgba(74, 144, 226, 0.3);
-    }
+   
 }
 
  
