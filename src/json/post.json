@@ -30,11 +30,29 @@
         "repositorio": "https://github.com/joaoguiaguiar/site-freelancer-empresa-maq-solucoes"
     },
     {
+        "id": 16,
+        "titulo": "Freelancer — Pousada Econois",
+        "descricao": "Website Institucional — Pousada",
+        "texto": "Projeto desenvolvido como trabalho freelancer para a Pousada Econois, com foco na criação de um site institucional moderno, responsivo e atrativo para o setor de turismo. O desenvolvimento contemplou desde a estruturação do layout até a implementação das funcionalidades, priorizando usabilidade e experiência do usuário. O site foi construído utilizando HTML5, CSS3 e JavaScript puro (Vanilla JS), sem uso de frameworks externos. Conta com navegação suave, menu responsivo, animações leves ao rolar a página, seção de avaliações, botão flutuante de WhatsApp para contato direto e layout totalmente responsivo. O projeto foi pensado como um case real de mercado, pronto para uso em produção e captação de reservas.",
+        "url": "https://freelancer-site-pousada-econois.vercel.app/",
+        "tags": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "Vanilla JS",
+            "Website Institucional",
+            "Responsivo",
+            "Freelancer",
+            "Turismo"
+        ],
+        "repositorio": "https://github.com/joaoguiaguiar/freelancer-site-pousada-econois"
+    },
+    {
         "id": 3,
         "titulo": "UrbanMart",
         "descricao": "Plataforma de e-commerce com carrinho de compras, autenticação de usuário e navegação dinâmica",
         "texto": "Plataforma de e-commerce desenvolvida em React e TypeScript, com foco em arquitetura front-end, gerenciamento de estado e experiência do usuário. A aplicação implementa autenticação com persistência via Local Storage, carrinho de compras dinâmico, sistema CRUD, filtros de produtos e navegação responsiva. O gerenciamento de estado utiliza Recoil e Context API, com navegação via React Router DOM e interface construída em abordagem mobile first com Styled Components, SCSS e Bootstrap.",
-        "URL": "https://ecomerce-delta-seven.vercel.app/",
+        "URL": "https://urban-mart-ten.vercel.app/",
         "tags": [
             "React",
             "TypeScript",
