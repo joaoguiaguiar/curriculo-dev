@@ -13,7 +13,7 @@
         ],
         "repositorio": "https://github.com/joaoguiaguiar/site-freelancer-empresa-rh-dp"
     },
-      {
+    {
         "id": 15,
         "titulo": "Freelancer – Empresa Maq Soluções Empresariais",
         "descricao": "Website Institucional – Empresa de Contabilidade",
@@ -31,9 +31,9 @@
     },
     {
         "id": 3,
-        "titulo": "E-commerce",
-        "descricao": "Plataforma de e-commerce com carrinho de compras e autenticação",
-        "texto": "Plataforma de e-commerce em desenvolvimento ativo, construída com React e TypeScript, implementando funcionalidades essenciais como autenticação de usuário via Local Storage, carrinho de compras dinâmico, sistema CRUD e barra de navegação responsiva. O projeto utiliza Recoil e Context API para gerenciamento de estado global, React Router DOM para navegação, e Styled Components com SCSS e Bootstrap para uma interface moderna e responsiva. Desenvolvido apenas para fins de estudos fazendo parte do aprendizado contínuo, com foco em boas práticas de desenvolvimento e arquitetura escalável. Próximas etapas incluem integração com banco de dados e implementação de funcionalidades avançadas para tornar a plataforma totalmente funcional.",
+        "titulo": "UrbanMart",
+        "descricao": "Plataforma de e-commerce com carrinho de compras, autenticação de usuário e navegação dinâmica",
+        "texto": "Plataforma de e-commerce desenvolvida em React e TypeScript, com foco em arquitetura front-end, gerenciamento de estado e experiência do usuário. A aplicação implementa autenticação com persistência via Local Storage, carrinho de compras dinâmico, sistema CRUD, filtros de produtos e navegação responsiva. O gerenciamento de estado utiliza Recoil e Context API, com navegação via React Router DOM e interface construída em abordagem mobile first com Styled Components, SCSS e Bootstrap.",
         "URL": "https://ecomerce-delta-seven.vercel.app/",
         "tags": [
             "React",
