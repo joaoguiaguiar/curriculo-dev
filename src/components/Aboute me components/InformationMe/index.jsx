@@ -32,7 +32,6 @@ const InformacoesModernizadas = () => {
 
     return (
         <div className={styles.container}>
-            {/* Texto introdutório */}
             <div className={styles.intro}>
                 <p>
                     Formado em <b>Análise e Desenvolvimento de Sistemas</b> pelo UDF (2024),
@@ -43,7 +42,6 @@ const InformacoesModernizadas = () => {
                 </p>
             </div>
 
-            {/* Timeline Section */}
             <div className={styles.timeline}>
                 <div className={styles.timelineItem}>
                     <div className={styles.timelineMarker}>
@@ -83,7 +81,6 @@ const InformacoesModernizadas = () => {
                 <h2 className={styles.section_title_experiencia}>Experience</h2>
             </div>
 
-            {/* Cards informativos */}
             <div className={styles.cardsContainer}>
                 <div
                     ref={el => referenciasDosCards.current[0] = el}
@@ -182,7 +179,6 @@ const InformacoesModernizadas = () => {
                 </div>
             </div>
 
-            {/* Seção de destaque */}
             <div className={styles.highlight}>
                 <div className={styles.highlightContent}>
                     <h2>Sempre em Evolução</h2>
