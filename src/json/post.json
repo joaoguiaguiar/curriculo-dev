@@ -34,7 +34,7 @@
         "titulo": "Freelancer — Pousada Econois",
         "descricao": "Website Institucional — Pousada",
         "texto": "Projeto desenvolvido como trabalho freelancer para a Pousada Econois, com foco na criação de um site institucional moderno, responsivo e atrativo para o setor de turismo. O desenvolvimento contemplou desde a estruturação do layout até a implementação das funcionalidades, priorizando usabilidade e experiência do usuário. O site foi construído utilizando HTML5, CSS3 e JavaScript puro (Vanilla JS), sem uso de frameworks externos. Conta com navegação suave, menu responsivo, animações leves ao rolar a página, seção de avaliações, botão flutuante de WhatsApp para contato direto e layout totalmente responsivo. O projeto foi pensado como um case real de mercado, pronto para uso em produção e captação de reservas.",
-        "url": "https://freelancer-site-pousada-econois.vercel.app/",
+        "URL": "https://freelancer-site-pousada-econois.vercel.app/",
         "tags": [
             "HTML5",
             "CSS3",
