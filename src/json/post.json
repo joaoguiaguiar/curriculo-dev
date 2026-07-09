@@ -184,7 +184,7 @@
         "id": 3,
         "titulo": "UrbanMart",
         "descricao": "Plataforma de e-commerce com carrinho de compras, autenticação de usuário e navegação dinâmica",
-        "texto": "Plataforma de e-commerce desenvolvida em React e TypeScript, com foco em arquitetura front-end, gerenciamento de estado e experiência do usuário. A aplicação implementa autenticação com persistência via Local Storage, carrinho de compras dinâmico, sistema CRUD, filtros de produtos e navegação responsiva. O gerenciamento de estado utiliza Recoil e Context API, com navegação via React Router DOM e interface construída em abordagem mobile first com Styled Components, SCSS e Bootstrap.",
+        "texto": "Este projeto é inspirado em um e-commerce que estou desenvolvendo como parte do meu aprendizado contínuo em desenvolvimento web. Esta versão representa uma refatoração do projeto original, onde o foco foi melhorar a arquitetura, o design e adicionar novas funcionalidades.\n\nO layout foi totalmente repensado, seguindo uma abordagem mobile first, com uma interface mais moderna e funcional. A ideia é continuar evoluindo o projeto, integrando uma API e um banco de dados no futuro.\n\nFuncionalidades\n- Autenticação de usuário.\n- Carrinho de compras.\n- Sistema de favoritos.\n- Barra de navegação dinâmica.\n- Filtros por categorias e pesquisa.\n- Sistema CRUD para criar, editar e atualizar dados do usuário.\n\nAutenticação e Armazenamento\nForam utilizados recursos nativos do navegador, como Local Storage, para simular uma experiência real de autenticação e persistência de dados. A autenticação conta com validação local e simulação de hash de senha, reforçando boas práticas de segurança mesmo em um projeto de estudo. Dados como carrinho, favoritos e informações do usuário também são armazenados localmente.\n\nGerenciamento de Estado\nPara o gerenciamento de estado da aplicação, foram exploradas duas abordagens: Recoil, principalmente para autenticação, e React Context API para carrinho, favoritos e pesquisa. Essa estratégia permitiu organizar melhor os fluxos globais de dados, evitando prop drilling e facilitando a manutenção do código.\n\nRotas e Navegação\nO gerenciamento de rotas foi implementado com React Router DOM, permitindo navegação entre páginas, rotas dinâmicas como produto por ID e organização das rotas em uma pasta dedicada, melhorando a arquitetura do projeto.\n\nEstilização e UI\nA estilização foi pensada para facilitar manutenção e escalabilidade, utilizando SCSS para organização de estilos, variáveis e mixins, Styled Components para componentes que exigem maior controle de layout e Bootstrap para componentes como modal, off-canvas e melhorias de UX.\n\nPróximos Passos\n- Integração com uma API externa.\n- Persistência de dados em banco de dados.\n- Expansão das funcionalidades do CRUD.\n- Melhorias contínuas de performance e experiência do usuário.",
         "categoria": "proprio",
         "origem": "Projeto próprio",
         "URL": "https://urban-mart-ten.vercel.app/",
@@ -196,7 +196,8 @@
             "Context API",
             "Styled Components",
             "Bootstrap",
-            "React Router DOM"
+            "React Router DOM",
+            "Local Storage"
         ],
         "repositorio": "https://github.com/joaoguiaguiar/projeto-e-commerce"
     },
@@ -204,17 +205,30 @@
         "id": 4,
         "titulo": "DevsStream",
         "descricao": "Plataforma de vídeos com categorias e pesquisa",
-        "texto": "Plataforma de vídeos desenvolvida com React e TypeScript como projeto de estudos, implementando funcionalidades de listagem e cadastro de vídeos por meio de requisições GET e POST utilizando MyJSONServer como API mock. Inclui sistema de categorias dinâmicas, funcionalidade de pesquisa em tempo real e interface para publicação de conteúdo. O projeto explora conceitos de consumo de APIs, gerenciamento de estado e componentização avançada em React.",
+        "texto": "O DevStream foi um projeto que surgiu como parte de uma atividade da faculdade na disciplina de Análise de Projetos e Sistemas.\n\nDurante o planejamento, o projeto envolveu:\n- Levantamento de requisitos funcionais e não funcionais.\n- Criação de diagramas de casos de uso, atividades, sequência e classes.\n- Estruturação e planejamento do sistema com base em boas práticas.\n\nA aplicação conta com:\n- Navegação fluida com React Router.\n- Busca dinâmica de vídeos.\n- Filtro de categorias.\n- Publicação de vídeos via formulário com requisições POST.\n- Consumo de API local com Axios e MyJsonServer.\n\nTecnologias Utilizadas\nReact, TypeScript, Bootstrap, SCSS, React Router DOM, Axios e MyJsonServer.",
         "categoria": "proprio",
         "origem": "Projeto próprio",
         "URL": "https://devstream-react.vercel.app/",
         "tags": [
             "React",
             "TypeScript",
-            "CSS",
-            "MyJSONSERVER (API)"
+            "Bootstrap",
+            "SCSS",
+            "React Router DOM",
+            "Axios",
+            "MyJsonServer"
         ],
-        "repositorio": "https://github.com/joaoguiaguiar/devs-stream"
+        "repositorio": "https://github.com/joaoguiaguiar/devs-stream",
+        "links": [
+            {
+                "label": "Documentação",
+                "href": "https://drive.google.com/file/d/1Rszior6G7wtczdsseDqqu2XmzBuoukQU/view"
+            },
+            {
+                "label": "API",
+                "href": "https://github.com/joaoguiaguiar/videos-API"
+            }
+        ]
     },
     {
         "id": 5,
@@ -253,7 +267,7 @@
         "id": 14,
         "titulo": "Projeto Calendário com Recoil",
         "descricao": "Gerenciamento de Estado Avançado com Recoil",
-        "texto": "Aplicação de calendário interativo desenvolvida com React, Recoil e TypeScript para praticar gerenciamento de estado global de forma moderna e eficiente. O projeto inclui formulário com validação, listagem de eventos, drag and drop e integração com a biblioteca Kalend para visualização. Foco em arquitetura limpa, responsividade e controle de estado escalável.",
+        "texto": "Sobre este projeto\nEste projeto foi desenvolvido com o intuito de praticar React e explorar ferramentas modernas de gerenciamento de estado. Embora o Recoil não seja tão amplamente utilizado quanto, por exemplo, o Redux, ele é uma biblioteca poderosa que permite controle total sobre o estado de um componente.\n\nUma de suas principais características é a separação do estado em pequenos átomos, que representam partes independentes do estado global. Isso permite um controle mais eficiente, modular e reativo da aplicação.\n\nAlém disso, o projeto também utiliza selectors, responsáveis por ler, transformar ou até escrever dados com base nos átomos ou em outros selectors.\n\nOutro objetivo importante deste projeto foi a utilização do Tailwind CSS, que tem feito parte do meu aprendizado contínuo na construção de interfaces modernas e responsivas.\n\nTecnologias principais\n- React para componentização da interface.\n- TypeScript para tipagem estática e segurança.\n- Vite como build moderno com HMR.\n- SCSS e Tailwind CSS para estilização.\n- Recoil para gerenciamento de estado global.\n- Kalend como biblioteca de calendário para React.\n- Formik e Yup para formulários com validação avançada.\n\nFuncionalidades\n- Formulário para cadastrar eventos com título, descrição, data/hora de início e fim.\n- Validação de dados com Formik e Yup.\n- Geração de ID único para cada evento.\n- Lista de eventos com filtros por data.\n- Botões para editar e excluir eventos.\n- Filtros rápidos: Hoje, Esta Semana e Limpar Filtro.\n\nObjetivos\n- Consolidar o uso do React com TypeScript.\n- Aplicar boas práticas com Tailwind CSS.\n- Reforçar o conhecimento em Formik e Yup.\n- Explorar gerenciamento de estado com Recoil.",
         "categoria": "proprio",
         "origem": "Projeto próprio",
         "URL": "https://recoil-calendar-state.vercel.app/",
@@ -262,6 +276,8 @@
             "TypeScript",
             "Recoil",
             "SCSS",
+            "Tailwind CSS",
+            "Kalend",
             "Formik",
             "Yup"
         ],

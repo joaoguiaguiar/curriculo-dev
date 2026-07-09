@@ -25,6 +25,7 @@ const ProjetoDetalhe = () => {
     const technologies = project.tecnologias || project.tags || [];
     const projectLink = project.link || project.URL;
     const githubLink = project.github || project.repositorio;
+    const extraLinks = project.links || [];
     const origin = project.origem || 'Projeto';
 
     const handleImageError = (e) => {
@@ -82,6 +83,22 @@ const ProjetoDetalhe = () => {
                                 <small key={technology}>{technology}</small>
                             ))}
                         </div>
+
+                        {extraLinks.length > 0 && (
+                            <nav className={styles.extraLinks} aria-label="Links adicionais do projeto">
+                                <span>Links</span>
+                                {extraLinks.map((link) => (
+                                    <a
+                                        href={link.href}
+                                        key={link.href}
+                                        rel="noopener noreferrer"
+                                        target="_blank"
+                                    >
+                                        {link.label}
+                                    </a>
+                                ))}
+                            </nav>
+                        )}
                     </aside>
                 )}
             </section>
