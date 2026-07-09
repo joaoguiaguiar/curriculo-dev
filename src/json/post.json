@@ -379,7 +379,7 @@
         "texto": "Plugin open source para WordPress que permite criar carrosséis de imagens dinâmicos, responsivos e personalizáveis por meio de um painel administrativo intuitivo.\n\nRecursos\n- Carrosséis de imagens ilimitados.\n- Layout responsivo.\n- Shortcode simples para inserção em páginas e posts.\n- Upload de imagens pela Biblioteca de Mídia.\n- Autoplay e loop infinito.\n- Setas e dots de navegação.\n- Configuração por Desktop, Tablet e Mobile.\n- Personalização de aparência e navegação.\n- Carregamento otimizado de CSS e JavaScript.\n\nImplementação\n- Desenvolvimento com PHP, JavaScript Vanilla e CSS.\n- Uso da WordPress API, Media Library API, Shortcodes e Custom Post Type.\n- Estrutura pensada para facilitar o uso por administradores sem necessidade de editar código.",
         "categoria": "opensource",
         "origem": "Open Source",
-        "imagem": "/IMG/posts/wordpress-plugin.svg",
+        "imagem": "wordpressLogo",
         "tecnologias": [
             "WordPress",
             "PHP",
@@ -399,7 +399,7 @@
         "texto": "Plugin WordPress para integração automática da Barra de Identidade Visual do Governo Federal no topo de qualquer tema WordPress, sem necessidade de alterar arquivos do tema.\n\nObjetivo\nGarantir a inclusão padronizada da barra institucional exigida em portais públicos, evitando alterações diretas no header.php, quebras após atualização de tema e problemas de manutenção em múltiplos sites.\n\nImplementação\n- Inserção da barra através do hook nativo wp_body_open, disponível a partir do WordPress 5.2.\n- Tema preservado, sem necessidade de modificação direta.\n- Script carregado com defer.\n- CSS aplicado dinamicamente para controle de sobreposição com z-index.\n- Estrutura desacoplada do tema.\n\nContexto de Uso\nDesenvolvido para ambientes institucionais do setor público, com foco em manutenção simples, padronização visual e compatibilidade com diferentes temas WordPress.",
         "categoria": "opensource",
         "origem": "Open Source",
-        "imagem": "/IMG/posts/wordpress-plugin.svg",
+        "imagem": "wordpressLogo",
         "tecnologias": [
             "WordPress",
             "PHP",

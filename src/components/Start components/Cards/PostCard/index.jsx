@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom';
+import wordpressLogo from '../../../../assets/WordPress-logotype-alternative.png';
 import './Post.scss';
 
 const ComponenteCard = ({ post, isHovered }) => {
-    const imageSrc = post.imagem || `/IMG/posts/${post.id}/capa.png`;
+    const imageSrc = post.imagem === 'wordpressLogo'
+        ? wordpressLogo
+        : post.imagem || `/IMG/posts/${post.id}/capa.png`;
     const technologies = post.tecnologias || post.tags || [];
     const projectLink = post.link || post.URL;
     const origin = post.origem || '';

@@ -1,4 +1,5 @@
 import { Link, useParams } from 'react-router-dom';
+import wordpressLogo from '../../assets/WordPress-logotype-alternative.png';
 import posts from '../../json/post.json';
 import styles from './ProjetoDetalhe.module.scss';
 
@@ -18,7 +19,9 @@ const ProjetoDetalhe = () => {
         );
     }
 
-    const imageSrc = project.imagem || `/IMG/posts/${project.id}/capa.png`;
+    const imageSrc = project.imagem === 'wordpressLogo'
+        ? wordpressLogo
+        : project.imagem || `/IMG/posts/${project.id}/capa.png`;
     const technologies = project.tecnologias || project.tags || [];
     const projectLink = project.link || project.URL;
     const githubLink = project.github || project.repositorio;
