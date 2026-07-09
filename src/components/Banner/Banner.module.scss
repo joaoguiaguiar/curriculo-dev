@@ -1,8 +1,9 @@
 .banner {
   width: 100%;
-  min-height: 100vh;
+  min-height: 100svh;
   padding: 6rem 2rem;
   background-color: #050b14;
+  background-image: var(--banner-desktop);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,7 +32,7 @@
   }
 
   .titulo {
-    font-size: clamp(3rem, 8vw, 7rem);
+    font-size: clamp(2.7rem, 8vw, 7rem);
     font-weight: 700;
     margin: 0;
     text-align: center;
@@ -57,9 +58,35 @@
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   .banner {
-    background-size: 96% auto;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .banner {
+    min-height: 100svh;
+    padding: 6rem 1.25rem 4rem;
+    background-image: var(--banner-mobile);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (max-width: 560px) {
+  .banner {
+    background-size: cover;
+    background-position: center;
+
+    &::before {
+      background: rgba(1, 9, 22, 0.58);
+    }
+
+    .titulo {
+      font-size: clamp(2.2rem, 13vw, 3.25rem);
+    }
   }
 }
 
