@@ -75,7 +75,7 @@
         "id": 21,
         "titulo": "ODIS",
         "descricao": "Portal e soluções WordPress para difusão de acervos digitais.",
-        "texto": "Desenvolvimento de soluções para o ecossistema ODIS, voltadas à gestão e difusão do patrimônio cultural brasileiro, com WordPress, Tainacan, plugins personalizados, componentes reutilizáveis e integração com APIs.",
+        "texto": "Desenvolvimento de soluções para o ODIS (Observatório de Desenvolvimento Integrado e Sustentável), plataforma voltada à gestão e divulgação de acervos e iniciativas institucionais.\n\n- Contribuição para um projeto de alcance internacional, com participação de 16 países.\n- Desenvolvimento de plugins personalizados para WordPress, incluindo Timeline, Carrossel e Mapa Interativo.\n- Reestruturação do portal utilizando o tema Blocksy, aplicando boas práticas de desenvolvimento e blocos nativos do Gutenberg.\n- Desenvolvimento e personalização de funcionalidades para WordPress e Tainacan, atendendo às necessidades do projeto.\n- Evolução da arquitetura do portal, priorizando reutilização de código, organização e facilidade de manutenção.\n- Publicação e implantação de novas versões da aplicação em ambiente Docker durante o processo de homologação e migração.",
         "categoria": "ibict",
         "origem": "IBICT",
         "imagem": "/IMG/posts/21/capa.png",
@@ -83,7 +83,10 @@
             "WordPress",
             "PHP",
             "Tainacan",
-            "APIs REST"
+            "APIs REST",
+            "Gutenberg",
+            "Blocksy",
+            "Docker"
         ],
         "link": "https://odis.ibict.br/",
         "github": "",
