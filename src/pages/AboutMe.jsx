@@ -5,7 +5,7 @@ import InformacoesModernizadas from '../components/Aboute me components/Informat
 const AbouteMe = () => {
     return (
         <section>
-            <PostModelo fotoCapa={fotoBanner} titulo='Sobre mim' />
+            <PostModelo fotoCapa={fotoBanner}/>
             <InformacoesModernizadas/>
         </section>
     )

@@ -1,0 +1,13 @@
+<svg width="960" height="540" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="540" rx="28" fill="#0f172a"/>
+  <rect x="1" y="1" width="958" height="538" rx="27" stroke="#1e8bc3" stroke-opacity="0.35" stroke-width="2"/>
+  <circle cx="480" cy="250" r="118" fill="#111c31" stroke="#2fb7e8" stroke-width="8"/>
+  <circle cx="480" cy="250" r="92" fill="#ffffff"/>
+  <text x="480" y="284" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="104" font-weight="700" fill="#1e293b">W</text>
+  <text x="480" y="420" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="4" fill="#e2e8f0">WORDPRESS PLUGIN</text>
+  <text x="480" y="456" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="500" fill="#7dd3fc">Open Source</text>
+  <path d="M210 156H318" stroke="#2fb7e8" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+  <path d="M642 156H750" stroke="#2fb7e8" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+  <path d="M196 386H306" stroke="#2fb7e8" stroke-width="4" stroke-linecap="round" opacity="0.35"/>
+  <path d="M654 386H764" stroke="#2fb7e8" stroke-width="4" stroke-linecap="round" opacity="0.35"/>
+</svg>

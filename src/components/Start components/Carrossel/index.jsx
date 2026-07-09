@@ -1,188 +1,153 @@
+import {
+  FaBootstrap,
+  FaCode,
+  FaDocker,
+  FaGitlab,
+  FaGithub,
+  FaJsSquare,
+  FaLinux,
+  FaNodeJs,
+  FaPhp,
+  FaReact,
+  FaServer,
+  FaTerminal,
+} from 'react-icons/fa';
+import {
+  SiDbeaver,
+  SiKubernetes,
+  SiMongodb,
+  SiMysql,
+  SiPostgresql,
+  SiPostman,
+  SiRancher,
+  SiSass,
+  SiTailwindcss,
+  SiTypescript,
+  SiWordpress,
+} from 'react-icons/si';
 import styles from './Carrossel.module.scss';
-import { useState, useEffect } from 'react';
+
+const categories = [
+  {
+    title: 'Frontend',
+    icon: FaReact,
+    description: 'Desenvolvimento de interfaces modernas utilizando React e TypeScript.',
+    items: ['React', 'React Native', 'TypeScript', 'JavaScript', 'Sass', 'Tailwind', 'Bootstrap'],
+  },
+  {
+    title: 'Backend',
+    icon: FaNodeJs,
+    description: 'Desenvolvimento de APIs, plugins e aplicacoes utilizando Node.js e PHP.',
+    items: ['Node.js', 'PHP', 'Express.js', 'REST API', 'JWT'],
+  },
+  {
+    title: 'WordPress & Tainacan',
+    icon: SiWordpress,
+    description: 'Desenvolvimento de plugins, temas e integracoes para projetos baseados em WordPress e Tainacan.',
+    items: ['WordPress', 'Tainacan', 'Plugins', 'Temas'],
+  },
+  {
+    title: 'Banco de Dados',
+    icon: SiMysql,
+    description: 'Modelagem, consultas e administracao de bancos relacionais e NoSQL.',
+    items: ['MySQL', 'PostgreSQL', 'MongoDB'],
+  },
+  {
+    title: 'DevOps e Infraestrutura',
+    icon: FaDocker,
+    description: 'Deploy, containers e gerenciamento de ambientes de producao.',
+    items: ['Docker', 'Kubernetes', 'Linux', 'GitLab', 'CI/CD', 'Rancher'],
+  },
+  {
+    title: 'Ferramentas',
+    icon: FaCode,
+    description: 'Ferramentas utilizadas no desenvolvimento e manutencao de aplicacoes.',
+    items: ['VS Code', 'Git', 'GitHub', 'GitLab', 'Postman', 'DBeaver', 'PuTTY', 'MobaXterm'],
+  },
+];
+
+const iconByTechnology = {
+  'CI/CD': FaGitlab,
+  'Express.js': FaNodeJs,
+  'REST API': FaServer,
+  Bootstrap: FaBootstrap,
+  DBeaver: SiDbeaver,
+  Docker: FaDocker,
+  GitHub: FaGithub,
+  Git: FaGithub,
+  GitLab: FaGitlab,
+  'GitLab CI/CD': FaGitlab,
+  JavaScript: FaJsSquare,
+  JWT: FaServer,
+  Kubernetes: SiKubernetes,
+  Linux: FaLinux,
+  MobaXterm: FaTerminal,
+  MongoDB: SiMongodb,
+  MySQL: SiMysql,
+  'Node.js': FaNodeJs,
+  PHP: FaPhp,
+  PostgreSQL: SiPostgresql,
+  Postman: SiPostman,
+  'Plugins WordPress': SiWordpress,
+  Plugins: SiWordpress,
+  PuTTY: FaServer,
+  Rancher: SiRancher,
+  React: FaReact,
+  'React Native': FaReact,
+  Sass: SiSass,
+  Tailwind: SiTailwindcss,
+  Tainacan: SiWordpress,
+  'Temas WordPress': SiWordpress,
+  Temas: SiWordpress,
+  TypeScript: SiTypescript,
+  'VS Code': FaCode,
+  WordPress: SiWordpress,
+};
 
 const Carrossel = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
-
-  const mainSkills = [
-    { name: 'React', icon: '../IMG/skils/react logo.png', color: '#61DAFB' },
-    { name: 'TypeScript', icon: '../IMG/skils/logo ts.png', color: '#3178C6' },
-    { name: 'Node.js', icon: '../IMG/skils/node.webp', color: '#339933' },
-    { name: 'PHP', icon: '../IMG/skils/php.png', color: '#777BB4' },
-    { name: 'Docker', icon: '../IMG/skils/docker.png', color: '#2496ED' },
-    { name: 'Kubernetes', icon: '../IMG/skils/kubernetes.png', color: '#326CE5' }
-  ];
-
-  const complementarySkills = [
-    'HTML5',
-    'CSS3',
-    'JavaScript',
-    'SCSS',
-    'Styled Components',
-    'Bootstrap',
-    'Tailwind CSS',
-    'WordPress',
-    'Git',
-    'GitHub',
-    'GitLab',
-    'CI/CD Pipelines',
-    'SQL',
-    'MySQL',
-    'MongoDB',
-    'Linux (ambiente servidor)',
-    'SSH',
-    'Vercel',
-    'MySQL Workbench',
-    'MobaXterm'
-  ];
-
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setActiveIndex((current) => (current + 1) % mainSkills.length);
-    }, 4000);
-
-    return () => clearInterval(interval);
-  }, [mainSkills.length]);
-
-  const goToSlide = (index) => {
-    setActiveIndex(index);
-  };
-
-  const nextSlide = () => {
-    setActiveIndex((current) => (current + 1) % mainSkills.length);
-  };
-
-  const prevSlide = () => {
-    setActiveIndex((current) => (current - 1 + mainSkills.length) % mainSkills.length);
-  };
-
   return (
-    <section className={styles.skills_section} id="skills">
+    <section className={styles.stackSection} id="skills">
       <div className={styles.container}>
-        <div className={styles.section_header}>
-          <h2 className={styles.section_title}>Principais Tecnologias</h2>
-          <div className={styles.section_subtitle}>
-            Tecnologias que utilizo no dia a dia
-          </div>
+        <div className={styles.header}>
+          <span>Full Stack</span>
+          <h2>Tecnologias</h2>
+          <p>
+            Tecnologias e ferramentas que utilizo diariamente no desenvolvimento de
+            aplicacoes web, APIs, WordPress e infraestrutura.
+          </p>
         </div>
 
-        <div className={styles.skills_grid}>
-          {mainSkills.map((skill, index) => (
-            <div
-              key={index}
-              className={`${styles.skill_card} ${index === activeIndex ? styles.active : ''
-                }`}
-              style={{ '--accent-color': skill.color }}
-              onClick={() => goToSlide(index)}
-            >
-              <div className={styles.skill_icon_wrapper}>
-                <img
-                  src={skill.icon}
-                  alt={`${skill.name} logo`}
-                  className={styles.skill_icon}
-                />
-              </div>
-              <div className={styles.skill_name}>{skill.name}</div>
-            </div>
-          ))}
-        </div>
+        <div className={styles.categoryGrid}>
+          {categories.map((category) => {
+            const CategoryIcon = category.icon;
 
-        {/* Carrossel */}
-        <div className={styles.carousel_container}>
-          <button
-            className={`${styles.carousel_arrow} ${styles.prev}`}
-            onClick={prevSlide}
-            aria-label="Tecnologia anterior"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <polyline points="15 18 9 12 15 6" />
-            </svg>
-          </button>
-
-          <div className={styles.carousel_wrapper}>
-            <div
-              className={styles.carousel_track}
-              style={{ transform: `translateX(-${activeIndex * 100}%)` }}
-            >
-              {mainSkills.map((skill, index) => (
-                <div key={index} className={styles.carousel_slide}>
-                  <div className={styles.skill_spotlight}>
-                    <div
-                      className={styles.skill_spotlight_icon}
-                      style={{ '--skill-color': skill.color }}
-                    >
-                      <img
-                        src={skill.icon}
-                        alt={`${skill.name} logo`}
-                        className={styles.spotlight_image}
-                      />
-                    </div>
-                    <h3 className={styles.skill_spotlight_name}>
-                      {skill.name}
-                    </h3>
+            return (
+              <article className={styles.categoryCard} key={category.title}>
+                <div className={styles.cardHeader}>
+                  <span className={styles.cardIcon}>
+                    <CategoryIcon aria-hidden="true" />
+                  </span>
+                  <div>
+                    <h3>{category.title}</h3>
+                    <p>{category.description}</p>
                   </div>
                 </div>
-              ))}
-            </div>
-          </div>
 
-          <button
-            className={`${styles.carousel_arrow} ${styles.next}`}
-            onClick={nextSlide}
-            aria-label="Próxima tecnologia"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <polyline points="9 18 15 12 9 6" />
-            </svg>
-          </button>
-        </div>
+                <div className={styles.badgeList}>
+                  {category.items.map((item) => {
+                    const ItemIcon = iconByTechnology[item] || FaCode;
 
-        {/* Indicadores */}
-        <div className={styles.carousel_indicators}>
-          {mainSkills.map((_, index) => (
-            <button
-              key={index}
-              className={`${styles.indicator} ${index === activeIndex ? styles.active : ''
-                }`}
-              onClick={() => goToSlide(index)}
-              aria-label={`Ir para ${mainSkills[index].name}`}
-            />
-          ))}
-        </div>
-
-        {/* Tecnologias complementares */}
-        <div className={styles.complementary_section}>
-          <div className={styles.complementary_divider} />
-          <p className={styles.complementary_intro}>Também trabalho com</p>
-
-          <div className={styles.complementary_flow}>
-            {complementarySkills.map((skill, index) => (
-              <span key={index} className={styles.complementary_item}>
-                {skill}
-              </span>
-            ))}
-          </div>
+                    return (
+                      <span className={styles.badge} key={item}>
+                        <ItemIcon aria-hidden="true" />
+                        {item}
+                      </span>
+                    );
+                  })}
+                </div>
+              </article>
+            );
+          })}
         </div>
       </div>
     </section>

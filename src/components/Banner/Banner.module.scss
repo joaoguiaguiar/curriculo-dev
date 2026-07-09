@@ -1,111 +1,105 @@
 .banner {
-  padding: 6rem 7rem 6.25rem;
+  width: 100%;
+  min-height: 100vh;
+  padding: 6rem 2rem;
   background-color: #050b14;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  display: flex;
   align-items: center;
+  justify-content: center;
   position: relative;
   z-index: 1;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(1, 9, 22, 0.46);
+    z-index: 1;
+  }
 
   .apresentacao {
     position: relative;
     z-index: 2;
-  }
-
-  .repertorioOverlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .titulo {
-    font-size: 3rem;
-    margin: 4.875rem 0 2rem;
-    text-align: start;
-    background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    position: relative;
-    z-index: 2;
-  }
-
-  .paragrafo {
-    font-family: var(--fonte-secundaria, sans-serif);
-    font-size: 1rem;
-    line-height: 2rem;
-    margin-bottom: 2rem;
-    text-align: start;
-    position: relative;
-    z-index: 2;
-  }
-
-  .imagens {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    height: 406px;
-    z-index: 2;
-
-    .imagemBanner {
-      width: 25vw;
-      border-radius: 50%;
-    }
-  }
-}
-
-/* Responsivo */
-@media (max-width: 1100px) {
-  .banner {
-    padding: 6rem 1.5rem;
-    grid-template-columns: 1fr;
+    font-size: clamp(3rem, 8vw, 7rem);
+    font-weight: 700;
+    margin: 0;
     text-align: center;
+    color: #ffffff;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 0.08em solid #00f2fe;
+    text-shadow: 0 0 18px rgba(79, 172, 254, 0.7);
+    width: 0;
+    animation:
+      typeHelloLoop 5s steps(11, end) 0.35s infinite,
+      cursorBlink 0.75s step-end infinite;
+  }
 
-    .titulo,
-    .paragrafo {
-      text-align: center;
-    }
-
-    .imagens {
-      height: auto;
-      justify-content: center;
-
-      .imagemBanner {
-        width: 50vw;
-      }
-    }
+  .subtitulo {
+    color: #ffffff;
+    font-size: clamp(1.25rem, 3vw, 2rem);
+    font-weight: 500;
+    margin-top: 1rem;
+    opacity: 0;
+    text-shadow: 0 0 14px rgba(0, 242, 254, 0.5);
+    animation: subtitleLoop 5s ease-in-out 0.35s infinite;
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 900px) {
   .banner {
-    padding: 4rem 2rem;
-    gap: 1.75rem;
+    background-size: 96% auto;
+  }
+}
 
-    .titulo {
-      font-size: 2.5rem;
-      margin: 3rem 0 1.25rem;
-    }
+@keyframes typeHelloLoop {
+  0%,
+  10% {
+    width: 0;
+  }
 
-    .paragrafo {
-      font-size: 1rem;
-      line-height: 1.75rem;
-      width: 90%;
-      margin: 0 auto 1.25rem;
-      text-align: start;
-    }
+  45%,
+  70% {
+    width: 11ch;
+  }
 
-    .imagens {
-      .imagemBanner {
-        width: 70vw;
-        max-width: 280px;
-        margin-top: 1rem;
-      }
-    }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes cursorBlink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes subtitleLoop {
+  0%,
+  42% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  52%,
+  78% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(12px);
   }
 }

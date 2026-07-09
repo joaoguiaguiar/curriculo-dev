@@ -1,9 +1,138 @@
 [
     {
+        "id": 17,
+        "titulo": "Museu Histórico Nacional",
+        "descricao": "Portal institucional do Museu Histórico Nacional no ecossistema IBRAM.",
+        "texto": "Tema filho customizado para WordPress desenvolvido para portais institucionais de museus vinculados ao IBRAM, utilizado no Museu Histórico Nacional e em outros 17 sites. Baseado no tema Blocksy, com melhorias estruturais, visuais e funcionais.\n\nInclui integração com o sistema de menus do WordPress, personalização via painel administrativo e criação de widget customizado para gerenciamento dinâmico de menus. Utilização de PHP e JavaScript/jQuery para extensão de funcionalidades sem alteração direta de plugins.\n\nFuncionalidades\n\nMenus e Navegação\n- Integração completa entre os menus personalizados do tema e o sistema de menus do WordPress.\n- Gerenciamento total dos itens de menu via Aparência > Menus, sem edição de código.\n- Widget personalizado para vincular menus criados em Aparência > Menus diretamente ao layout do site.\n- Suporte a menu lateral estilo sanduíche sobreposto ao menu principal, com flexibilidade e acessibilidade à navegação.\n\nPersonalização Visual\n- Alteração da cor de fundo do menu diretamente pelo painel do WordPress.\n- Customizações visuais realizadas sem necessidade de editar o código manualmente.\n- Manipulação de CSS de plugins via jQuery, garantindo controle sobre o estilo sem alterar o código-fonte dos plugins.\n\nArquitetura e Manutenção\n- Lógica implementada via PHP, com extensibilidade sem modificar arquivos do tema pai.\n- Estrutura modular que separa responsabilidades e facilita atualizações futuras.\n- Compatibilidade com atualizações do tema Blocksy.",
+        "categoria": "ibram-ios",
+        "origem": "IBRAM / IOS / G4F",
+        "imagem": "/IMG/posts/17/capa.png",
+        "tecnologias": [
+            "WordPress",
+            "PHP",
+            "JavaScript",
+            "CSS"
+        ],
+        "link": "https://mhn.museus.gov.br/",
+        "github": "",
+        "destaque": true
+    },
+    {
+        "id": 18,
+        "titulo": "Visite Museus",
+        "descricao": "Portal de consulta e navegação por instituições museológicas brasileiras.",
+        "texto": "Atuação na manutenção e evolução do tema da plataforma Visite Museus, sistema institucional voltado à promoção de museus brasileiros. Responsável por ajustes técnicos para compatibilidade com PHP 8.4, incluindo aplicação de boas práticas de sanitização e tratamento de dados, além de correções no fluxo administrativo e melhoria da integração com o Tainacan. Contribuição ativa em repositório versionado, com foco em estabilidade, segurança e manutenção de ambiente em produção.",
+        "categoria": "ibram-ios",
+        "origem": "IBRAM / IOS / G4F",
+        "imagem": "/IMG/posts/18/capa.png",
+        "tecnologias": [
+            "WordPress",
+            "PHP",
+            "JavaScript",
+            "APIs REST"
+        ],
+        "link": "https://visite.museus.gov.br/instituicoes/?perpage=12&view_mode=cnegrid2&paged=1&order=ASC&orderby=date&fetch_only=thumbnail%2Ccreation_date%2Ctitle%2Cdescription&fetch_only_meta=",
+        "github": "https://github.com/tainacan/cne",
+        "destaque": true
+    },
+    {
+        "id": 19,
+        "titulo": "Cadastro Nacional de Museus",
+        "descricao": "Portal para cadastro e consulta de informações sobre museus brasileiros.",
+        "texto": "Sistema de Cadastro de Museus - Desenvolvimento e Manutenção (IBRAM)\n\nAtuação na manutenção e evolução do sistema de cadastro de museus, envolvendo implementação de regras de permissão, correção de funcionalidades e melhorias no front-end com JavaScript, com contribuição direta no código como colaborador em repositório versionado.",
+        "categoria": "ibram-ios",
+        "origem": "IBRAM / IOS / G4F",
+        "imagem": "/IMG/posts/19/capa.png",
+        "tecnologias": [
+            "WordPress",
+            "PHP",
+            "JavaScript",
+            "MySQL"
+        ],
+        "link": "https://cadastro.museus.gov.br/",
+        "github": "https://github.com/tainacan/museusbr",
+        "destaque": true
+    },
+    {
+        "id": 20,
+        "titulo": "Bibliotecas Museus",
+        "descricao": "Portal de bibliotecas vinculadas ao ecossistema de museus.",
+        "texto": "Tema filho customizado para WordPress, desenvolvido para substituir um layout legado com problemas de performance e manutenção. O projeto inclui taxonomia Cidade para classificação geográfica, busca em tempo real por cidade no front-end utilizando JavaScript, resultados compartilháveis via URL com History API e menu responsivo off-canvas com suporte a submenus. A estrutura foi desenvolvida com abordagem mobile first, garantindo responsividade e melhor experiência do usuário.\n\nSobre o Projeto\nTema criado por mim para substituir um layout legado que apresentava problemas de performance e dificuldades de manutenção.\n\nSite em produção: https://bibliotecas.museus.gov.br/\n\nFuncionalidades\n\nMenus e Navegação\n- Walker personalizado que separa link do botão de submenu.\n- Gerenciamento completo via Aparência > Menus.\n- Menu responsivo off-canvas com suporte a submenus.\n- Dois estilos: transparente na home e escuro nas páginas internas.\n\nTaxonomias e Busca\n- Taxonomia Cidade para classificação geográfica.\n- Busca em tempo real por cidade na categoria bibliotecas-da-rede.\n- Filtro com JavaScript puro e History API.\n- Resultados compartilháveis via URL.\n\nLayout e Templates\n- Templates específicos para categorias personalizadas.\n- Banner dinâmico com imagem destacada.\n- Cards responsivos com overlay gradiente.\n- Design system com variáveis CSS.\n\nPerformance\n- Assets carregados condicionalmente.\n- Versionamento automático com filemtime.\n- Scripts com atributo defer.\n- Estrutura modular de includes.\n\nIntegrações\n- Overlay personalizado para plugin PostX via jQuery.\n- Suporte a SmartSlider 3.\n- Dropdowns com hover no desktop.\n- Acessibilidade e navegação por teclado.",
+        "categoria": "ibram-ios",
+        "origem": "IBRAM / IOS / G4F",
+        "imagem": "/IMG/posts/20/capa.png",
+        "tecnologias": [
+            "WordPress",
+            "PHP",
+            "CSS",
+            "JavaScript"
+        ],
+        "link": "https://bibliotecas.museus.gov.br/",
+        "github": "",
+        "destaque": true
+    },
+    {
+        "id": 21,
+        "titulo": "ODIS",
+        "descricao": "Portal e soluções WordPress para difusão de acervos digitais.",
+        "texto": "Desenvolvimento de soluções para o ecossistema ODIS, voltadas à gestão e difusão do patrimônio cultural brasileiro, com WordPress, Tainacan, plugins personalizados, componentes reutilizáveis e integração com APIs.",
+        "categoria": "ibict",
+        "origem": "IBICT",
+        "imagem": "/IMG/posts/21/capa.png",
+        "tecnologias": [
+            "WordPress",
+            "PHP",
+            "Tainacan",
+            "APIs REST"
+        ],
+        "link": "https://odis.ibict.br/",
+        "github": "",
+        "destaque": true
+    },
+    {
+        "id": 22,
+        "titulo": "Bela Vista",
+        "descricao": "Plataforma interna para gestão operacional multiempresa.",
+        "texto": "Plataforma web de gestão interna para controle operacional de clientes, supervisores, fornecedores, itens e lançamentos mensais, com interface em React e TypeScript e planejamento de backend com Node.js, Express, PostgreSQL e Prisma.",
+        "categoria": "freelance",
+        "origem": "Freelance",
+        "imagem": "/IMG/posts/22/capa.png",
+        "tecnologias": [
+            "React",
+            "TypeScript",
+            "Node.js",
+            "PostgreSQL",
+            "Prisma"
+        ],
+        "link": "",
+        "github": "",
+        "destaque": true
+    },
+    {
+        "id": 23,
+        "titulo": "ACOL Advocacia",
+        "descricao": "Website institucional freelancer para escritório de advocacia.",
+        "texto": "Website institucional desenvolvido como freelancer para escritório de advocacia, com foco em apresentação profissional, navegação responsiva, comunicação clara dos serviços e experiência de contato objetiva.",
+        "categoria": "freelance",
+        "origem": "Freelance",
+        "imagem": "/IMG/posts/23/capa.png",
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Vercel"
+        ],
+        "link": "https://acoladvocacia.com.br/",
+        "github": "",
+        "destaque": true
+    },
+    {
         "id": 2,
         "titulo": "Freelancer - Site RH",
         "descricao": "Site para empresa de RH e DP com manutenção contínua",
         "texto": "Site desenvolvido como freelancer para empresa de Recursos Humanos e Departamento Pessoal, implementando design responsivo e integração com API StaticForms para formulários de contato. O projeto incluiu manutenção contínua com atualizações regulares de conteúdo, otimização de performance e melhorias na experiência do usuário. Desenvolvido com foco em conversão e apresentação profissional dos serviços da empresa.",
+        "categoria": "freelance",
+        "origem": "Freelance",
         "URL": "https://terceirizacaodp.vercel.app/",
         "tags": [
             "HTML",
@@ -18,6 +147,8 @@
         "titulo": "Freelancer – Empresa Maq Soluções Empresariais",
         "descricao": "Website Institucional – Empresa de Contabilidade",
         "texto": "Projeto desenvolvido como trabalho freelancer para a Maq Soluções Empresariais, empresa de contabilidade. Envolveu desde o levantamento de requisitos até o deploy final, passando por design, desenvolvimento e integração de funcionalidades. O site foi construído com HTML5, CSS3, JavaScript (ES6+) e Bootstrap 5, sendo totalmente responsivo e moderno. Inclui integração com StaticForms API para captação de leads, botão de WhatsApp com mensagem automática, validação assíncrona de formulários, feedback via modal e animações suaves com AOS. Hospedado na Hostinger, garante desempenho, segurança e manutenção contínua.",
+        "categoria": "freelance",
+        "origem": "Freelance",
         "URL": "https://maqsolucoes.com/",
         "tags": [
             "HTML",
@@ -34,6 +165,8 @@
         "titulo": "Freelancer — Pousada Econois",
         "descricao": "Website Institucional — Pousada",
         "texto": "Projeto desenvolvido como trabalho freelancer para a Pousada Econois, com foco na criação de um site institucional moderno, responsivo e atrativo para o setor de turismo. O desenvolvimento contemplou desde a estruturação do layout até a implementação das funcionalidades, priorizando usabilidade e experiência do usuário. O site foi construído utilizando HTML5, CSS3 e JavaScript puro (Vanilla JS), sem uso de frameworks externos. Conta com navegação suave, menu responsivo, animações leves ao rolar a página, seção de avaliações, botão flutuante de WhatsApp para contato direto e layout totalmente responsivo. O projeto foi pensado como um case real de mercado, pronto para uso em produção e captação de reservas.",
+        "categoria": "freelance",
+        "origem": "Freelance",
         "URL": "https://freelancer-site-pousada-econois.vercel.app/",
         "tags": [
             "HTML5",
@@ -52,6 +185,8 @@
         "titulo": "UrbanMart",
         "descricao": "Plataforma de e-commerce com carrinho de compras, autenticação de usuário e navegação dinâmica",
         "texto": "Plataforma de e-commerce desenvolvida em React e TypeScript, com foco em arquitetura front-end, gerenciamento de estado e experiência do usuário. A aplicação implementa autenticação com persistência via Local Storage, carrinho de compras dinâmico, sistema CRUD, filtros de produtos e navegação responsiva. O gerenciamento de estado utiliza Recoil e Context API, com navegação via React Router DOM e interface construída em abordagem mobile first com Styled Components, SCSS e Bootstrap.",
+        "categoria": "proprio",
+        "origem": "Projeto próprio",
         "URL": "https://urban-mart-ten.vercel.app/",
         "tags": [
             "React",
@@ -70,6 +205,8 @@
         "titulo": "DevsStream",
         "descricao": "Plataforma de vídeos com categorias e pesquisa",
         "texto": "Plataforma de vídeos desenvolvida com React e TypeScript como projeto de estudos, implementando funcionalidades de listagem e cadastro de vídeos por meio de requisições GET e POST utilizando MyJSONServer como API mock. Inclui sistema de categorias dinâmicas, funcionalidade de pesquisa em tempo real e interface para publicação de conteúdo. O projeto explora conceitos de consumo de APIs, gerenciamento de estado e componentização avançada em React.",
+        "categoria": "proprio",
+        "origem": "Projeto próprio",
         "URL": "https://devstream-react.vercel.app/",
         "tags": [
             "React",
@@ -84,6 +221,8 @@
         "titulo": "Formulário React Hooks",
         "descricao": "Formulário avançado com validação Zod",
         "texto": "Formulário avançado desenvolvido para estudos de React Hook Form e validação com Zod, utilizando TypeScript para tipagem robusta. Implementa validação em tempo real, tratamento de erros personalizados e experiência de usuário otimizada. O projeto explora conceitos avançados de formulários controlados, schemas de validação e boas práticas de UX em formulários web.",
+        "categoria": "proprio",
+        "origem": "Projeto próprio",
         "URL": "https://formulario-react-hooks.vercel.app/",
         "tags": [
             "React",
@@ -98,6 +237,8 @@
         "titulo": "Agendamento de Consultas",
         "descricao": "Sistema de agendamento com React, TypeScript e Vite",
         "texto": "Este projeto é um sistema simples de agendamento de consultas médicas desenvolvido com React, TypeScript e Vite. A interface utiliza Tailwind CSS para um layout moderno e responsivo. Possui formulário com validação, geração de ID para cada consulta, dashboard com listagem das consultas (agendadas e concluídas), e estatísticas resumidas. O projeto reforça conceitos como componentização, props, estado e gerenciamento de dados em tempo real.",
+        "categoria": "proprio",
+        "origem": "Projeto próprio",
         "URL": "https://agendamento-consulta-react-ts.vercel.app/",
         "tags": [
             "React",
@@ -113,6 +254,8 @@
         "titulo": "Projeto Calendário com Recoil",
         "descricao": "Gerenciamento de Estado Avançado com Recoil",
         "texto": "Aplicação de calendário interativo desenvolvida com React, Recoil e TypeScript para praticar gerenciamento de estado global de forma moderna e eficiente. O projeto inclui formulário com validação, listagem de eventos, drag and drop e integração com a biblioteca Kalend para visualização. Foco em arquitetura limpa, responsividade e controle de estado escalável.",
+        "categoria": "proprio",
+        "origem": "Projeto próprio",
         "URL": "https://recoil-calendar-state.vercel.app/",
         "tags": [
             "React",
@@ -129,6 +272,8 @@
         "titulo": "CRUD JavaScript",
         "descricao": "Aplicação de cadastro com operações CRUD",
         "texto": "Aplicação de cadastro de pessoas desenvolvida em JavaScript puro como projeto de estudos para dominar conceitos fundamentais de CRUD (Create, Read, Update, Delete). Implementa funcionalidades completas de adição, listagem, edição e exclusão de registros, utilizando Local Storage para persistência de dados. O projeto explora manipulação do DOM, eventos JavaScript e estruturas de dados básicas.",
+        "categoria": "proprio",
+        "origem": "Projeto próprio",
         "URL": "https://crudobjetos.vercel.app/",
         "tags": [
             "JavaScript",
@@ -142,6 +287,8 @@
         "titulo": "Cadastro React",
         "descricao": "Sistema de cadastro com operações CRUD em React",
         "texto": "Sistema de cadastro desenvolvido em React como evolução do projeto CRUD JavaScript, implementando operações CRUD completas com gerenciamento de estado eficiente via hooks. O projeto explora conceitos de componentização, props, estado local e ciclo de vida dos componentes. Desenvolvido para consolidar conhecimentos em React e comparar abordagens entre JavaScript puro e frameworks modernos.",
+        "categoria": "proprio",
+        "origem": "Projeto próprio",
         "URL": "https://sistema-cadastro-react.vercel.app/",
         "tags": [
             "React",
@@ -155,6 +302,8 @@
         "titulo": "Formulário Validado",
         "descricao": "Formulário com validação em tempo real",
         "texto": "Formulário desenvolvido em JavaScript puro com validação em tempo real e feedbacks visuais imediatos. Implementa validação de campos obrigatórios, formatação automática, verificação de padrões (email, telefone) e mensagens de erro dinâmicas. O projeto foca em experiência do usuário otimizada, com interações fluidas e design responsivo para diferentes dispositivos.",
+        "categoria": "proprio",
+        "origem": "Projeto próprio",
         "URL": "https://form-validado.vercel.app/",
         "tags": [
             "JavaScript",
@@ -168,6 +317,8 @@
         "titulo": "Site Eletricista",
         "descricao": "Site institucional para eletricista autônomo",
         "texto": "Site institucional desenvolvido para eletricista autônomo como projeto de estudos em desenvolvimento web básico. Implementa design limpo e profissional, seções de serviços, portfólio de trabalhos e formulário de contato. O projeto explora conceitos de layout responsivo, acessibilidade web e otimização para mecanismos de busca (SEO básico).",
+        "categoria": "proprio",
+        "origem": "Projeto próprio",
         "URL": "https://projeto-eletricista.vercel.app/",
         "tags": [
             "HTML",
@@ -181,6 +332,8 @@
         "titulo": "Bootstrap Raiz",
         "descricao": "Projeto com layouts responsivos em Bootstrap",
         "texto": "Projeto desenvolvido para dominar o framework Bootstrap e suas funcionalidades de grid system, componentes e utilitários. Implementa layouts responsivos complexos, navegação adaptativa e componentes interativos. O projeto explora conceitos de mobile-first design, breakpoints responsivos e customização de temas Bootstrap.",
+        "categoria": "proprio",
+        "origem": "Projeto próprio",
         "URL": "https://prejeto-raiz-bootstrap.vercel.app/",
         "tags": [
             "Bootstrap",
@@ -194,6 +347,8 @@
         "titulo": "Apple Hub",
         "descricao": "Clone da página da Apple com design moderno",
         "texto": "Clone da página da Apple desenvolvido como projeto de estudos para dominar técnicas avançadas de UI/UX e CSS. Implementa design pixel-perfect, animações suaves, layout responsivo e interações modernas. O projeto explora conceitos de design minimalista, tipografia avançada, uso de gradientes e efeitos visuais sofisticados.",
+        "categoria": "proprio",
+        "origem": "Projeto próprio",
         "URL": "https://site-apple--delta.vercel.app/",
         "tags": [
             "HTML",
@@ -207,6 +362,8 @@
         "titulo": "WhatsApp Clone",
         "descricao": "Interface inspirada no WhatsApp",
         "texto": "Interface inspirada no WhatsApp desenvolvida para praticar conceitos avançados de UI/UX e replicação de interfaces complexas. Implementa layout de chat, sidebar de conversas, status online e design responsivo. O projeto explora técnicas de CSS Grid, Flexbox e JavaScript para criar uma experiência similar ao aplicativo original.",
+        "categoria": "proprio",
+        "origem": "Projeto próprio",
         "URL": "https://site-whpp.vercel.app/",
         "tags": [
             "HTML",
@@ -214,5 +371,44 @@
             "JavaScript"
         ],
         "repositorio": "https://github.com/joaoguiaguiar/web-site-whatsapp-ficticio"
+    },
+    {
+        "id": 24,
+        "titulo": "Carrossel Interativo",
+        "descricao": "Plugin open source para criação de carrosséis dinâmicos e responsivos no WordPress.",
+        "texto": "Plugin open source para WordPress que permite criar carrosséis de imagens dinâmicos, responsivos e personalizáveis por meio de um painel administrativo intuitivo.\n\nRecursos\n- Carrosséis de imagens ilimitados.\n- Layout responsivo.\n- Shortcode simples para inserção em páginas e posts.\n- Upload de imagens pela Biblioteca de Mídia.\n- Autoplay e loop infinito.\n- Setas e dots de navegação.\n- Configuração por Desktop, Tablet e Mobile.\n- Personalização de aparência e navegação.\n- Carregamento otimizado de CSS e JavaScript.\n\nImplementação\n- Desenvolvimento com PHP, JavaScript Vanilla e CSS.\n- Uso da WordPress API, Media Library API, Shortcodes e Custom Post Type.\n- Estrutura pensada para facilitar o uso por administradores sem necessidade de editar código.",
+        "categoria": "opensource",
+        "origem": "Open Source",
+        "imagem": "/IMG/posts/wordpress-plugin.svg",
+        "tecnologias": [
+            "WordPress",
+            "PHP",
+            "JavaScript",
+            "CSS",
+            "Shortcodes",
+            "Custom Post Type"
+        ],
+        "link": "",
+        "github": "https://github.com/joaoguiaguiar/wp-carrossel-interativo",
+        "destaque": true
+    },
+    {
+        "id": 25,
+        "titulo": "WP Gov Bar",
+        "descricao": "Plugin WordPress para integração automática da Barra do Governo Federal.",
+        "texto": "Plugin WordPress para integração automática da Barra de Identidade Visual do Governo Federal no topo de qualquer tema WordPress, sem necessidade de alterar arquivos do tema.\n\nObjetivo\nGarantir a inclusão padronizada da barra institucional exigida em portais públicos, evitando alterações diretas no header.php, quebras após atualização de tema e problemas de manutenção em múltiplos sites.\n\nImplementação\n- Inserção da barra através do hook nativo wp_body_open, disponível a partir do WordPress 5.2.\n- Tema preservado, sem necessidade de modificação direta.\n- Script carregado com defer.\n- CSS aplicado dinamicamente para controle de sobreposição com z-index.\n- Estrutura desacoplada do tema.\n\nContexto de Uso\nDesenvolvido para ambientes institucionais do setor público, com foco em manutenção simples, padronização visual e compatibilidade com diferentes temas WordPress.",
+        "categoria": "opensource",
+        "origem": "Open Source",
+        "imagem": "/IMG/posts/wordpress-plugin.svg",
+        "tecnologias": [
+            "WordPress",
+            "PHP",
+            "JavaScript",
+            "CSS",
+            "Hooks"
+        ],
+        "link": "",
+        "github": "https://github.com/joaoguiaguiar/wp-gov-bar",
+        "destaque": true
     }
 ]

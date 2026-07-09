@@ -3,7 +3,8 @@ import './menuLink.scss';
 
 const MenuLink = (props) => {
   const localizacao = useLocation();
-  const isActive = localizacao.pathname === props.to;
+  const isInicio = props.to === '/inicio' && localizacao.pathname === '/';
+  const isActive = localizacao.pathname === props.to || isInicio;
   
   return (
     <Link
