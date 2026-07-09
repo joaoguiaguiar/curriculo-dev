@@ -1,10 +1,10 @@
 import styles from './Curriculo.module.scss';
-import g4fLogo from '../assets/experiencias/g4f.png';
-import iosLogo from '../assets/experiencias/ios.jpg';
-import ibictLogo from '../assets/experiencias/ibict.png';
-import ibramLogo from '../assets/experiencias/ibram.png';
-import belaVistaLogo from '../assets/experiencias/bela-vista.jpg';
-import tainacanLogo from '../assets/experiencias/tainacan.png';
+import g4fLogo from '../../assets/experiencias/g4f.png';
+import iosLogo from '../../assets/experiencias/ios.jpg';
+import ibictLogo from '../../assets/experiencias/ibict.png';
+import ibramLogo from '../../assets/experiencias/ibram.png';
+import belaVistaLogo from '../../assets/experiencias/bela-vista.jpg';
+import tainacanLogo from '../../assets/experiencias/tainacan.png';
 
 const education = [
     {

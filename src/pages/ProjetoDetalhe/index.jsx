@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router-dom';
-import posts from '../json/post.json';
+import posts from '../../json/post.json';
 import styles from './ProjetoDetalhe.module.scss';
 
 const ProjetoDetalhe = () => {

@@ -5,11 +5,11 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import PaginaPadrao from './pages/PaginaPadrao';
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe'; 
-import Curriculo from './pages/Curriculo';
+import Curriculo from './pages/Curriculo/index.jsx';
 import Tecnologias from './pages/Tecnologias';
 import Portfolio from './pages/Portfolio';
-import ProjetoDetalhe from './pages/ProjetoDetalhe';
-import Contato from './pages/Contato';
+import ProjetoDetalhe from './pages/ProjetoDetalhe/index.jsx';
+import Contato from './pages/Contato/index.jsx';
 import NotRouter from './pages/404.jsx'; 
 import ScrollToTop from './components/scroll/ScrollToTop.jsx';
 
