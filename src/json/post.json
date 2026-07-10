@@ -5,7 +5,7 @@
         "descricao": "Portal institucional do Museu Histórico Nacional no ecossistema IBRAM.",
         "texto": "Tema filho customizado para WordPress desenvolvido para portais institucionais de museus vinculados ao IBRAM, utilizado no Museu Histórico Nacional e em outros 17 sites. Baseado no tema Blocksy, com melhorias estruturais, visuais e funcionais.\n\nInclui integração com o sistema de menus do WordPress, personalização via painel administrativo e criação de widget customizado para gerenciamento dinâmico de menus. Utilização de PHP e JavaScript/jQuery para extensão de funcionalidades sem alteração direta de plugins.\n\nFuncionalidades\n\nMenus e Navegação\n- Integração completa entre os menus personalizados do tema e o sistema de menus do WordPress.\n- Gerenciamento total dos itens de menu via Aparência > Menus, sem edição de código.\n- Widget personalizado para vincular menus criados em Aparência > Menus diretamente ao layout do site.\n- Suporte a menu lateral estilo sanduíche sobreposto ao menu principal, com flexibilidade e acessibilidade à navegação.\n\nPersonalização Visual\n- Alteração da cor de fundo do menu diretamente pelo painel do WordPress.\n- Customizações visuais realizadas sem necessidade de editar o código manualmente.\n- Manipulação de CSS de plugins via jQuery, garantindo controle sobre o estilo sem alterar o código-fonte dos plugins.\n\nArquitetura e Manutenção\n- Lógica implementada via PHP, com extensibilidade sem modificar arquivos do tema pai.\n- Estrutura modular que separa responsabilidades e facilita atualizações futuras.\n- Compatibilidade com atualizações do tema Blocksy.",
         "categoria": "ibram-ios",
-        "origem": "IBRAM / IOS / G4F",
+        "origem": "IBRAM / IOS",
         "imagem": "/IMG/posts/17/capa.png",
         "tecnologias": [
             "WordPress",
@@ -23,7 +23,7 @@
         "descricao": "Portal de consulta e navegação por instituições museológicas brasileiras.",
         "texto": "Atuação na manutenção e evolução do tema da plataforma Visite Museus, sistema institucional voltado à promoção de museus brasileiros. Responsável por ajustes técnicos para compatibilidade com PHP 8.4, incluindo aplicação de boas práticas de sanitização e tratamento de dados, além de correções no fluxo administrativo e melhoria da integração com o Tainacan. Contribuição ativa em repositório versionado, com foco em estabilidade, segurança e manutenção de ambiente em produção.",
         "categoria": "ibram-ios",
-        "origem": "IBRAM / IOS / G4F",
+        "origem": "IBRAM / G4F",
         "imagem": "/IMG/posts/18/capa.png",
         "tecnologias": [
             "WordPress",
@@ -41,7 +41,7 @@
         "descricao": "Portal para cadastro e consulta de informações sobre museus brasileiros.",
         "texto": "Sistema de Cadastro de Museus - Desenvolvimento e Manutenção (IBRAM)\n\nAtuação na manutenção e evolução do sistema de cadastro de museus, envolvendo implementação de regras de permissão, correção de funcionalidades e melhorias no front-end com JavaScript, com contribuição direta no código como colaborador em repositório versionado.",
         "categoria": "ibram-ios",
-        "origem": "IBRAM / IOS / G4F",
+        "origem": "IBRAM / G4F",
         "imagem": "/IMG/posts/19/capa.png",
         "tecnologias": [
             "WordPress",
@@ -59,7 +59,7 @@
         "descricao": "Portal de bibliotecas vinculadas ao ecossistema de museus.",
         "texto": "Tema filho customizado para WordPress, desenvolvido para substituir um layout legado com problemas de performance e manutenção. O projeto inclui taxonomia Cidade para classificação geográfica, busca em tempo real por cidade no front-end utilizando JavaScript, resultados compartilháveis via URL com History API e menu responsivo off-canvas com suporte a submenus. A estrutura foi desenvolvida com abordagem mobile first, garantindo responsividade e melhor experiência do usuário.\n\nSobre o Projeto\nTema criado por mim para substituir um layout legado que apresentava problemas de performance e dificuldades de manutenção.\n\nSite em produção: https://bibliotecas.museus.gov.br/\n\nFuncionalidades\n\nMenus e Navegação\n- Walker personalizado que separa link do botão de submenu.\n- Gerenciamento completo via Aparência > Menus.\n- Menu responsivo off-canvas com suporte a submenus.\n- Dois estilos: transparente na home e escuro nas páginas internas.\n\nTaxonomias e Busca\n- Taxonomia Cidade para classificação geográfica.\n- Busca em tempo real por cidade na categoria bibliotecas-da-rede.\n- Filtro com JavaScript puro e History API.\n- Resultados compartilháveis via URL.\n\nLayout e Templates\n- Templates específicos para categorias personalizadas.\n- Banner dinâmico com imagem destacada.\n- Cards responsivos com overlay gradiente.\n- Design system com variáveis CSS.\n\nPerformance\n- Assets carregados condicionalmente.\n- Versionamento automático com filemtime.\n- Scripts com atributo defer.\n- Estrutura modular de includes.\n\nIntegrações\n- Overlay personalizado para plugin PostX via jQuery.\n- Suporte a SmartSlider 3.\n- Dropdowns com hover no desktop.\n- Acessibilidade e navegação por teclado.",
         "categoria": "ibram-ios",
-        "origem": "IBRAM / IOS / G4F",
+        "origem": "IBRAM / G4F",
         "imagem": "/IMG/posts/20/capa.png",
         "tecnologias": [
             "WordPress",
@@ -89,6 +89,28 @@
             "Docker"
         ],
         "link": "https://odis.ibict.br/",
+        "github": "",
+        "destaque": true
+    },
+    {
+        "id": 26,
+        "titulo": "IBRAM - Acervo 3D",
+        "descricao": "Aplicativo móvel para digitalização e processamento de acervos museológicos em 3D.",
+        "texto": "Desenvolvimento da interface mobile utilizando React Native e Expo para captura de imagens, integração com APIs REST, autenticação JWT e comunicação com o Tainacan. O aplicativo permite selecionar museus e itens do acervo, capturar fotografias, enviar imagens para processamento 3D e acompanhar o fluxo de digitalização. O projeto foi desenvolvido em conjunto com uma equipe responsável pelo backend em PHP/Python e infraestrutura em Kubernetes, integrando todo o fluxo de geração de modelos 3D para acervos museológicos.",
+        "categoria": "ibram-ios",
+        "origem": "IBRAM / G4F",
+        "imagem": "/IMG/posts/24/capa.png",
+        "tecnologias": [
+            "React Native",
+            "Expo",
+            "JavaScript",
+            "PHP",
+            "Python",
+            "Kubernetes",
+            "Tainacan",
+            "REST API"
+        ],
+        "link": "",
         "github": "",
         "destaque": true
     },
