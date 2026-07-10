@@ -31,7 +31,7 @@
             "JavaScript",
             "APIs REST"
         ],
-        "link": "https://visite.museus.gov.br/instituicoes/?perpage=12&view_mode=cnegrid2&paged=1&order=ASC&orderby=date&fetch_only=thumbnail%2Ccreation_date%2Ctitle%2Cdescription&fetch_only_meta=",
+        "link": "https://visite.museus.gov.br/",
         "github": "https://github.com/tainacan/cne",
         "destaque": true
     },
