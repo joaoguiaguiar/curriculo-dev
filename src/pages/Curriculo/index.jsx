@@ -38,7 +38,7 @@ const experiences = [
     },
     {
         company: 'IBICT',
-        role: 'Bolsista de Pesquisa - Full Stack Developer | DevOps',
+        role: 'Pesquisador - Full Stack Developer | DevOps',
         period: 'Jun/2026 - Atual',
         location: 'Brasília - Remoto',
         logo: ibictLogo,

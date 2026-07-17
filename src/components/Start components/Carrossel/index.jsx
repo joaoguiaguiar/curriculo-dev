@@ -31,36 +31,42 @@ const categories = [
   {
     title: 'Frontend',
     icon: FaReact,
+    accent: '#61dafb',
     description: 'Desenvolvimento de interfaces modernas utilizando React e TypeScript.',
     items: ['React', 'React Native', 'TypeScript', 'JavaScript', 'Sass', 'Tailwind', 'Bootstrap'],
   },
   {
     title: 'Backend',
     icon: FaNodeJs,
+    accent: '#8cc84b',
     description: 'Desenvolvimento de APIs, plugins e aplicacoes utilizando Node.js e PHP.',
     items: ['Node.js', 'PHP', 'Express.js', 'REST API', 'JWT'],
   },
   {
     title: 'WordPress & Tainacan',
     icon: SiWordpress,
+    accent: '#576ea3',
     description: 'Desenvolvimento de plugins, temas e integracoes para projetos baseados em WordPress e Tainacan.',
     items: ['WordPress', 'Tainacan', 'Plugins', 'Temas'],
   },
   {
     title: 'Banco de Dados',
     icon: SiMysql,
+    accent: '#f6a623',
     description: 'Modelagem, consultas e administracao de bancos relacionais e NoSQL.',
     items: ['MySQL', 'PostgreSQL', 'MongoDB'],
   },
   {
     title: 'DevOps e Infraestrutura',
     icon: FaDocker,
+    accent: '#2496ed',
     description: 'Deploy, containers e gerenciamento de ambientes de producao.',
     items: ['Docker', 'Kubernetes', 'Linux', 'GitLab', 'CI/CD', 'Rancher'],
   },
   {
     title: 'Ferramentas',
     icon: FaCode,
+    accent: '#e0507a',
     description: 'Ferramentas utilizadas no desenvolvimento e manutencao de aplicacoes.',
     items: ['VS Code', 'Git', 'GitHub', 'GitLab', 'Postman', 'DBeaver', 'PuTTY', 'MobaXterm'],
   },
@@ -122,16 +128,20 @@ const Carrossel = () => {
             const CategoryIcon = category.icon;
 
             return (
-              <article className={styles.categoryCard} key={category.title}>
-                <div className={styles.cardHeader}>
+              <article
+                className={styles.categoryCard}
+                key={category.title}
+                style={{ '--accent': category.accent } }
+              >
+                <div className={styles.cardTop}>
                   <span className={styles.cardIcon}>
                     <CategoryIcon aria-hidden="true" />
                   </span>
-                  <div>
-                    <h3>{category.title}</h3>
-                    <p>{category.description}</p>
-                  </div>
+                  <span className={styles.cardCount}>{category.items.length} techs</span>
                 </div>
+
+                <h3>{category.title}</h3>
+                <p className={styles.cardDescription}>{category.description}</p>
 
                 <div className={styles.badgeList}>
                   {category.items.map((item) => {
