@@ -17,24 +17,23 @@ const contactLinks = [
     {
         title: 'Currículo Lattes',
         description: 'Produção acadêmica e atuação técnica.',
-        href: 'https://buscatextual.cnpq.br/buscatextual/visualizacv.do;jsessionid=84B23DC92CE58709DA5A670D72AFD81C.buscatextual_0',
+        href: 'http://lattes.cnpq.br/0134374370409906',
         icon: FaGraduationCap,
     },
     {
         title: 'Telefone',
         description: '(61) 99454-0642',
-        href: 'tel:+5561994540642',
         icon: FaPhoneAlt,
-        action: false,
     },
     {
         title: 'E-mail',
         description: 'joaoguilhermeaguiar@gmail.com',
-        href: 'mailto:joaoguilhermeaguiar@gmail.com',
         icon: FaEnvelope,
-        action: false,
     },
 ];
+
+const actionLinks = contactLinks.filter((item) => item.href);
+const footerContacts = contactLinks.filter((item) => !item.href);
 
 const Contato = () => {
     return (
@@ -49,12 +48,12 @@ const Contato = () => {
                 </div>
 
                 <div className={styles.linkGrid}>
-                    {contactLinks.map((item) => {
+                    {actionLinks.map((item) => {
                         const Icon = item.icon;
 
                         return (
                             <article
-                                className={`${styles.card} ${item.action === false ? styles.staticCard : ''}`}
+                                className={styles.card}
                                 key={item.title}
                             >
                                 <div className={styles.icon}>
@@ -66,16 +65,30 @@ const Contato = () => {
                                     <p>{item.description}</p>
                                 </div>
 
-                                {item.action !== false && (
-                                    <a href={item.href} rel="noopener noreferrer" target="_blank">
-                                        Abrir
-                                        <FaExternalLinkAlt />
-                                    </a>
-                                )}
+                                <a href={item.href} rel="noopener noreferrer" target="_blank">
+                                    Abrir
+                                    <FaExternalLinkAlt />
+                                </a>
                             </article>
                         );
                     })}
                 </div>
+
+                <footer className={styles.contactFooter}>
+                    {footerContacts.map((item) => {
+                        const Icon = item.icon;
+
+                        return (
+                            <div className={styles.footerContact} key={item.title}>
+                                <Icon />
+                                <div>
+                                    <span>{item.title}</span>
+                                    <strong>{item.description}</strong>
+                                </div>
+                            </div>
+                        );
+                    })}
+                </footer>
             </section>
         </main>
     );
