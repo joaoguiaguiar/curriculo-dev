@@ -115,7 +115,6 @@ const Carrossel = () => {
     <section className={styles.stackSection} id="skills">
       <div className={styles.container}>
         <div className={styles.header}>
-          <span>Full Stack</span>
           <h2>Tecnologias</h2>
           <p>
             Tecnologias e ferramentas que utilizo diariamente no desenvolvimento de

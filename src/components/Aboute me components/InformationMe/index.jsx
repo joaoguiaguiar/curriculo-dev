@@ -1,5 +1,4 @@
 import styles from './Information.module.scss';
-import minhaFoto from './eu.jpeg';
 import ExperienceLogos from '../ExperienceLogos';
 
 const metrics = [
@@ -14,18 +13,17 @@ const InformacoesModernizadas = () => {
         <section className={styles.container}>
             <div className={styles.content}>
                 <div className={styles.textBlock}>
-                    <span className={styles.eyebrow}>Sobre mim</span>
                     <h2 className={styles.title}>Desenvolvedor Full Stack</h2>
                     <p>
-                        Desenvolvedor e pesquisador com foco em aplicacoes web e software livre.
-                        Sou formado em <b>Analise e Desenvolvimento de Sistemas</b> pelo UDF (2024)
+                        Desenvolvedor e pesquisador com foco em aplicações web e software livre.
+                        Sou formado em <b>Análise e Desenvolvimento de Sistemas</b> pelo UDF (2024)
                         e atuo como <b>Desenvolvedor Full Stack</b>, com mais de <b>2 anos</b> na
-                        construcao de aplicacoes web para instituicoes publicas e projetos privados.
+                        construção de aplicações web para instituições públicas e projetos privados.
                     </p>
                     <p>
-                        Crio solucoes acessiveis, modernas e faceis de manter, sempre buscando
+                        Crio soluções acessíveis, modernas e fáceis de manter, sempre buscando
                         aprimorar minhas habilidades e contribuir para projetos inovadores,
-                        aliando eficiencia tecnica as boas praticas de desenvolvimento.
+                        aliando eficiência técnica às boas práticas de desenvolvimento.
                     </p>
 
                     <div className={styles.metricsGrid}>
@@ -35,16 +33,6 @@ const InformacoesModernizadas = () => {
                                 <span>{metric.label}</span>
                             </div>
                         ))}
-                    </div>
-                </div>
-
-                <div className={styles.imageBlock}>
-                    <div className={styles.photoPlaceholder}>
-                        <img
-                            src={minhaFoto}
-                            alt="Joao Guilherme"
-                            className={styles.photo}
-                        />
                     </div>
                 </div>
             </div>

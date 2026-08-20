@@ -451,5 +451,61 @@
         "link": "",
         "github": "https://github.com/joaoguiaguiar/wp-gov-bar",
         "destaque": true
+    },
+    {
+        "id": 27,
+        "titulo": "Pipeline CI/CD e Deploy com Docker",
+        "descricao": "Pipeline automatizada para construir, publicar e implantar uma aplicação distribuída com segurança.",
+        "texto": "Desenvolvimento de pipeline CI/CD no GitLab para uma aplicação distribuída em Angular, NestJS e FastAPI, com construção e publicação de imagens Docker no GitLab Container Registry.\n\nO deploy em máquina virtual foi automatizado via SSH e Docker Compose, incluindo autenticação no Registry, atualização das imagens, recriação controlada dos containers e validação dos serviços.\n\nO ambiente integra PostgreSQL com pgvector, Redis, backend NestJS, frontend Angular servido por Nginx e um serviço de inteligência artificial desenvolvido em FastAPI. As imagens Docker foram versionadas por commit, com gerenciamento de variáveis e credenciais de ambiente e persistência de dados em volumes Docker.\n\nTambém realizei troubleshooting de dependências, autenticação no Container Registry, variáveis de ambiente, proxy reverso, comunicação entre containers e inicialização dos serviços. Antes da implantação, as imagens e os serviços foram validados localmente com Docker Compose e Docker Desktop para reduzir riscos na atualização do ambiente.",
+        "categoria": "devops",
+        "origem": "DevOps e Infraestrutura",
+        "imagem": "/IMG/posts/25/capa.png",
+        "tecnologias": [
+            "GitLab CI/CD",
+            "Docker",
+            "Docker Compose",
+            "Container Registry",
+            "SSH",
+            "Linux",
+            "Nginx",
+            "Angular",
+            "NestJS",
+            "FastAPI",
+            "PostgreSQL",
+            "pgvector",
+            "Redis"
+        ],
+        "link": "",
+        "github": "",
+        "destaque": true
+    },
+    {
+        "id": 28,
+        "titulo": "Implantação e automação do OpenRefine em Kubernetes",
+        "descricao": "Implantação do OpenRefine com CI/CD, persistência NFS, acesso seguro e validação automatizada.",
+        "texto": "Planejamento e execução da implantação do OpenRefine em Kubernetes, iniciando pela validação local da aplicação com Docker Compose e Docker Desktop. Nessa etapa, foram analisados o container, as portas, a persistência dos projetos, as permissões de usuário, o consumo de recursos e a compatibilidade da imagem.\n\nDesenvolvi uma pipeline CI/CD no GitLab com etapas de validação, construção e publicação da imagem, deploy e verificação do ambiente. A automação publica as imagens no GitLab Container Registry, aplica os manifestos Kubernetes por meio do GitLab Agent e valida o rollout da aplicação.\n\nA infraestrutura inclui Persistent Volume e Persistent Volume Claim, armazenamento NFS, permissões por UID/GID, Kubernetes Service, NGINX Ingress, HTTPS/TLS, OAuth2 Proxy e autenticação corporativa integrada ao Active Directory.\n\nDurante a implantação, também realizei troubleshooting de sintaxe YAML, versões e tags de imagens Docker, GitLab Runner, políticas de atualização, permissões de armazenamento, persistência de dados, compatibilidade do kubectl com o cluster e configuração do GitLab Agent.",
+        "categoria": "devops",
+        "origem": "DevOps e Infraestrutura",
+        "imagem": "/IMG/posts/26/capa.png",
+        "tecnologias": [
+            "Docker",
+            "Docker Compose",
+            "GitLab CI/CD",
+            "Container Registry",
+            "Kubernetes",
+            "kubectl",
+            "GitLab Agent",
+            "YAML",
+            "NFS",
+            "PV/PVC",
+            "NGINX Ingress",
+            "TLS",
+            "OAuth2 Proxy",
+            "Active Directory",
+            "Linux"
+        ],
+        "link": "",
+        "github": "",
+        "destaque": true
     }
 ]

@@ -38,7 +38,7 @@ const experiences = [
     },
     {
         company: 'IBICT',
-        role: 'Pesquisador - Full Stack Developer | DevOps',
+        role: 'Pesquisador - Desenvolvedor web',
         period: 'Jun/2026 - Atual',
         location: 'Brasília - Remoto',
         logo: ibictLogo,
@@ -58,6 +58,7 @@ const experiences = [
             '- Implementação de funcionalidades e integrações para WordPress e Tainacan, conforme as necessidades do projeto.',
             '- Evolução da arquitetura do portal, com foco em reutilização de código, organização e facilidade de manutenção.',
             '- Implantação de novas versões da aplicação em ambiente Docker durante as etapas de homologação e migração.',
+            '- Desenvolvimento do tema filho ODIS com base no Blocksy, utilizando blocos nativos do Gutenberg e boas práticas de desenvolvimento.',
         ],
     },
     {

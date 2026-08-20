@@ -10,14 +10,35 @@ const filters = [
     { label: 'Freelance', value: 'freelance' },
     { label: 'Projetos próprios', value: 'proprio' },
     { label: 'Open Source', value: 'opensource' },
+    { label: 'DevOps e Infraestrutura', value: 'devops' },
 ];
+
+const ProjectGrid = ({ className, items, hoveredProject, setHoveredProject }) => (
+    <div className={className}>
+        {items.map((post) => (
+            <div
+                className={styles['project-item']}
+                key={post.id}
+                onMouseEnter={() => setHoveredProject(post.id)}
+                onMouseLeave={() => setHoveredProject(null)}
+            >
+                <ComponenteCard
+                    post={post}
+                    isHovered={hoveredProject === post.id}
+                />
+            </div>
+        ))}
+    </div>
+);
 
 const Cards = () => {
     const [activeFilter, setActiveFilter] = useState('all');
     const [hoveredProject, setHoveredProject] = useState(null);
+    const portfolioPosts = posts.filter((post) => post.categoria !== 'devops');
+    const devOpsPosts = posts.filter((post) => post.categoria === 'devops');
 
     const filteredPosts = activeFilter === 'all'
-        ? posts
+        ? portfolioPosts
         : posts.filter((post) => post.categoria === activeFilter);
 
     return (
@@ -44,21 +65,31 @@ const Cards = () => {
                     ))}
                 </div>
 
-                <div className={styles['projects-grid']}>
-                    {filteredPosts.map((post) => (
-                        <div
-                            className={styles['project-item']}
-                            key={post.id}
-                            onMouseEnter={() => setHoveredProject(post.id)}
-                            onMouseLeave={() => setHoveredProject(null)}
-                        >
-                            <ComponenteCard
-                                post={post}
-                                isHovered={hoveredProject === post.id}
-                            />
+                <ProjectGrid
+                    className={styles['projects-grid']}
+                    hoveredProject={hoveredProject}
+                    items={filteredPosts}
+                    setHoveredProject={setHoveredProject}
+                />
+
+                {activeFilter === 'all' && (
+                    <section className={styles['devops-section']}>
+                        <div className={styles['devops-header']}>
+                            <span className={styles['section-eyebrow']}>Automação e operação</span>
+                            <h2 className={styles['devops-title']}>DevOps e Infraestrutura</h2>
+                            <p className={styles['section-description']}>
+                                Projetos de integração contínua, containers, implantação e sustentação de ambientes.
+                            </p>
                         </div>
-                    ))}
-                </div>
+
+                        <ProjectGrid
+                            className={styles['devops-grid']}
+                            hoveredProject={hoveredProject}
+                            items={devOpsPosts}
+                            setHoveredProject={setHoveredProject}
+                        />
+                    </section>
+                )}
             </div>
         </section>
     );

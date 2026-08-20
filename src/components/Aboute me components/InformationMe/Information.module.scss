@@ -1,154 +1,120 @@
 .container {
-    min-height: 100vh;
-    padding: 6.5rem 2rem 4.5rem;
+    padding: 4.5rem 2rem 3.5rem;
     background:
-        radial-gradient(circle at 75% 12%, rgba(0, 242, 254, 0.09), transparent 24rem),
-        radial-gradient(circle at 8% 86%, rgba(79, 172, 254, 0.075), transparent 22rem),
-        #222831;
-    color: #e6edf3;
+        linear-gradient(180deg, rgba(230, 246, 255, 0.72) 0, rgba(255, 255, 255, 0) 16rem),
+        #ffffff;
+    color: #172433;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4rem;
+    gap: 4.75rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .content {
-    width: min(1180px, 100%);
+    width: min(980px, 100%);
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
-    align-items: center;
-    gap: 3.25rem;
 }
 
 .textBlock {
-    max-width: 620px;
+    max-width: 760px;
+    margin: 0 auto;
 
     p {
-        color: #b8c4d0;
+        color: #536170;
         font-size: 1rem;
-        line-height: 1.75;
-        margin: 0 0 1rem;
+        line-height: 1.78;
+        margin: 0 0 1.1rem;
 
         b {
-            color: #ffffff;
+            color: #172433;
             font-weight: 700;
         }
     }
 }
 
+.textBlock > .eyebrow,
+.textBlock > .title {
+    display: block;
+    text-align: center;
+}
+
 .eyebrow {
-    color: #00f2fe;
+    color: #087ea4;
     display: inline-block;
     font-size: 0.78rem;
     font-weight: 700;
-    letter-spacing: 0.08em;
+    letter-spacing: 0;
     margin-bottom: 0.75rem;
     text-transform: uppercase;
 }
 
 .title {
-    color: #ffffff;
-    font-size: clamp(2rem, 3.4vw, 3.15rem);
-    font-weight: 800;
-    line-height: 1.12;
+    color: #172433;
+    font-size: clamp(2rem, 3.1vw, 2.85rem);
+    font-weight: 700;
+    line-height: 1.16;
     margin: 0 0 1.15rem;
+
+    &::after {
+        content: '';
+        display: block;
+        width: 48px;
+        height: 3px;
+        margin: 0.85rem auto 0;
+        background: #1596c0;
+    }
 }
 
 .metricsGrid {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 0.75rem;
-    margin-top: 1.65rem;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #dbe8f0;
 }
 
 .metricCard {
-    min-height: 86px;
-    padding: 0.9rem;
-    border: 1px solid rgba(255, 255, 255, 0.095);
-    border-radius: 14px;
-    background:
-        linear-gradient(180deg, rgba(255, 255, 255, 0.046), rgba(255, 255, 255, 0.02)),
-        rgba(23, 30, 39, 0.72);
+    min-height: 64px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: transform 0.22s ease, border-color 0.22s ease;
-
-    &:hover {
-        transform: translateY(-3px);
-        border-color: rgba(0, 242, 254, 0.26);
-    }
 
     strong {
-        color: #ffffff;
+        color: #172433;
         font-size: clamp(1.25rem, 2vw, 1.65rem);
-        font-weight: 760;
+        font-weight: 700;
         line-height: 1;
     }
 
     span {
         margin-top: 0.45rem;
-        color: #aab7c4;
+        color: #607080;
         font-size: 0.76rem;
-        font-weight: 600;
+        font-weight: 500;
         line-height: 1.35;
     }
 }
 
-.imageBlock {
-    display: flex;
-    justify-content: center;
-}
-
-.photoPlaceholder {
-    width: min(380px, 100%);
-    aspect-ratio: 4 / 5;
-    border: 1px solid rgba(0, 242, 254, 0.2);
-    border-radius: 18px;
-    background:
-        linear-gradient(135deg, rgba(79, 172, 254, 0.12), rgba(0, 242, 254, 0.04)),
-        rgba(255, 255, 255, 0.03);
-    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-
-.photo {
-    width: 100%;
-    height: 100%;
-    display: block;
-    object-fit: cover;
-    object-position: center;
-    transform: scale(1.18);
-}
-
 @media (max-width: 900px) {
     .container {
-        padding: 6rem 1.25rem 4rem;
-        gap: 4rem;
+        padding: 4rem 1.25rem 3rem;
+        gap: 3.75rem;
     }
 
     .content {
-        grid-template-columns: 1fr;
-        gap: 2.5rem;
+        width: min(720px, 100%);
     }
 
     .textBlock {
         max-width: none;
-        text-align: center;
     }
 
     .metricsGrid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
         max-width: 520px;
-        margin: 1.65rem auto 0;
-    }
-
-    .photoPlaceholder {
-        max-width: 320px;
+        margin: 2rem auto 0;
     }
 
 }
@@ -159,7 +125,7 @@
     }
 
     .metricCard {
-        min-height: 72px;
+        min-height: 64px;
         align-items: center;
         text-align: center;
     }
