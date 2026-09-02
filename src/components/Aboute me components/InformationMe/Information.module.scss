@@ -1,5 +1,6 @@
 .container {
-    padding: 4.5rem 2rem 3.5rem;
+    min-height: 100vh;
+    padding: clamp(9rem, 18vh, 12rem) 2rem 5rem;
     background:
         linear-gradient(180deg, rgba(230, 246, 255, 0.72) 0, rgba(255, 255, 255, 0) 16rem),
         #ffffff;
@@ -7,23 +8,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4.75rem;
+    justify-content: flex-start;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .content {
-    width: min(980px, 100%);
+    width: min(960px, 100%);
     margin: 0 auto;
 }
 
 .textBlock {
-    max-width: 760px;
-    margin: 0 auto;
+    max-width: 880px;
+    margin: 0;
 
     p {
         color: #536170;
         font-size: 1rem;
-        line-height: 1.78;
+        line-height: 2rem;
         margin: 0 0 1.1rem;
 
         b {
@@ -36,7 +37,7 @@
 .textBlock > .eyebrow,
 .textBlock > .title {
     display: block;
-    text-align: center;
+    text-align: left;
 }
 
 .eyebrow {
@@ -44,7 +45,7 @@
     display: inline-block;
     font-size: 0.78rem;
     font-weight: 700;
-    letter-spacing: 0;
+    letter-spacing: 0.08em;
     margin-bottom: 0.75rem;
     text-transform: uppercase;
 }
@@ -61,46 +62,15 @@
         display: block;
         width: 48px;
         height: 3px;
-        margin: 0.85rem auto 0;
+        margin: 0.85rem 0 0;
         background: #1596c0;
-    }
-}
-
-.metricsGrid {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 1.5rem;
-    margin-top: 2rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid #dbe8f0;
-}
-
-.metricCard {
-    min-height: 64px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    strong {
-        color: #172433;
-        font-size: clamp(1.25rem, 2vw, 1.65rem);
-        font-weight: 700;
-        line-height: 1;
-    }
-
-    span {
-        margin-top: 0.45rem;
-        color: #607080;
-        font-size: 0.76rem;
-        font-weight: 500;
-        line-height: 1.35;
     }
 }
 
 @media (max-width: 900px) {
     .container {
-        padding: 4rem 1.25rem 3rem;
-        gap: 3.75rem;
+        min-height: 100svh;
+        padding: 7rem 1.25rem 4rem;
     }
 
     .content {
@@ -111,22 +81,4 @@
         max-width: none;
     }
 
-    .metricsGrid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        max-width: 520px;
-        margin: 2rem auto 0;
-    }
-
-}
-
-@media (max-width: 520px) {
-    .metricsGrid {
-        grid-template-columns: 1fr;
-    }
-
-    .metricCard {
-        min-height: 64px;
-        align-items: center;
-        text-align: center;
-    }
 }

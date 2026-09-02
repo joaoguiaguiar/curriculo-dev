@@ -2,11 +2,8 @@
   min-height: 100vh;
   padding: 7rem 1.5rem 5rem;
   font-family: Inter, Manrope, 'IBM Plex Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  background:
-    radial-gradient(circle at 78% 18%, rgba(0, 242, 254, 0.09), transparent 24rem),
-    radial-gradient(circle at 8% 88%, rgba(79, 172, 254, 0.07), transparent 22rem),
-    #222831;
-  color: #ffffff;
+  background: #f7f9fc;
+  color: #111820;
 }
 
 .container {
@@ -24,7 +21,7 @@
   span {
     display: inline-block;
     margin-bottom: 0.65rem;
-    color: #00f2fe;
+    color: #147dab;
     font-size: 0.72rem;
     font-weight: 700;
     letter-spacing: 0.08em;
@@ -33,7 +30,7 @@
 
   h1 {
     margin: 0;
-    color: #ffffff;
+    color: #0f1419;
     font-size: clamp(2.2rem, 5vw, 4rem);
     font-weight: 700;
     line-height: 1.05;
@@ -41,7 +38,7 @@
 
   p {
     margin: 1rem 0 0;
-    color: #b8c4d0;
+    color: #536170;
     font-size: 1rem;
     line-height: 1.72;
   }
@@ -58,23 +55,21 @@
   gap: 1rem;
   align-items: center;
   padding: 1rem;
-  border: 1px solid rgba(255, 255, 255, 0.095);
+  border: 1px solid #d7e3ec;
   border-radius: 14px;
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.046), rgba(255, 255, 255, 0.02)),
-    rgba(23, 30, 39, 0.82);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.14);
+  background: #ffffff;
+  box-shadow: 0 12px 28px rgba(15, 20, 25, 0.08);
   transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
 
   &:hover {
     transform: translateY(-4px);
-    border-color: rgba(0, 242, 254, 0.28);
-    box-shadow: 0 18px 38px rgba(0, 0, 0, 0.2);
+    border-color: rgba(20, 125, 171, 0.35);
+    box-shadow: 0 18px 38px rgba(15, 20, 25, 0.12);
 
     .icon {
-      color: #ffffff;
-      background: rgba(0, 242, 254, 0.16);
-      box-shadow: 0 0 22px rgba(0, 242, 254, 0.13);
+      color: #147dab;
+      background: rgba(20, 125, 171, 0.14);
+      box-shadow: 0 0 22px rgba(20, 125, 171, 0.1);
     }
   }
 
@@ -84,10 +79,10 @@
     gap: 0.45rem;
     min-height: 36px;
     padding: 0.48rem 0.7rem;
-    border: 1px solid rgba(0, 242, 254, 0.24);
+    border: 1px solid #147dab;
     border-radius: 9px;
-    background: rgba(0, 242, 254, 0.08);
-    color: #eafcff;
+    background: #147dab;
+    color: #ffffff;
     font-size: 0.78rem;
     font-weight: 700;
     text-decoration: none;
@@ -95,9 +90,9 @@
 
     &:hover {
       transform: translateY(-2px);
-      border-color: rgba(0, 242, 254, 0.42);
-      background: rgba(0, 242, 254, 0.13);
-      color: #ffffff;
+      border-color: #147dab;
+      background: #ffffff;
+      color: #147dab;
       text-decoration: none;
     }
 
@@ -113,10 +108,10 @@
   place-items: center;
   width: 48px;
   height: 48px;
-  border: 1px solid rgba(0, 242, 254, 0.17);
+  border: 1px solid rgba(20, 125, 171, 0.18);
   border-radius: 50%;
-  background: rgba(0, 242, 254, 0.09);
-  color: #00f2fe;
+  background: rgba(20, 125, 171, 0.08);
+  color: #147dab;
   transition: color 0.22s ease, background 0.22s ease, box-shadow 0.22s ease;
 
   svg {
@@ -130,7 +125,7 @@
 
   h2 {
     margin: 0;
-    color: #ffffff;
+    color: #0f1419;
     font-size: 1.05rem;
     font-weight: 650;
     line-height: 1.25;
@@ -138,7 +133,7 @@
 
   p {
     margin: 0.4rem 0 0;
-    color: #aab7c4;
+    color: #536170;
     font-size: 0.88rem;
     line-height: 1.55;
   }
@@ -149,10 +144,10 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1px;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid #d7e3ec;
   border-radius: 14px;
-  background: #050505;
-  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.22);
+  background: #d7e3ec;
+  box-shadow: 0 16px 34px rgba(15, 20, 25, 0.1);
 }
 
 .footerContact {
@@ -162,12 +157,12 @@
   align-items: center;
   min-width: 0;
   padding: 1rem;
-  background: #0b0b0b;
+  background: #ffffff;
 
   svg {
     width: 18px;
     height: 18px;
-    color: #00f2fe;
+    color: #147dab;
   }
 
   div {
@@ -181,7 +176,7 @@
 
   span {
     margin-bottom: 0.22rem;
-    color: #8d98a4;
+    color: #6b7886;
     font-size: 0.72rem;
     font-weight: 750;
     letter-spacing: 0.08em;
@@ -191,7 +186,7 @@
 
   strong {
     overflow-wrap: anywhere;
-    color: #ffffff;
+    color: #0f1419;
     font-size: 0.92rem;
     font-weight: 650;
     line-height: 1.35;
