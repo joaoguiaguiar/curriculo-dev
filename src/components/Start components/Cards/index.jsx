@@ -45,7 +45,6 @@ const Cards = () => {
         <section className={styles['portfolio-section']} id="projetos">
             <div className={styles['portfolio-container']}>
                 <div className={styles['section-header']}>
-                    <span className={styles['section-eyebrow']}>Projetos selecionados</span>
                     <h2 className={styles['section-title']}>Portfólio</h2>
                     <p className={styles['section-description']}>
                         Projetos, portais e soluções que desenvolvi ou contribuí ao longo da minha atuação profissional.

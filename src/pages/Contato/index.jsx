@@ -40,7 +40,6 @@ const Contato = () => {
         <main className={styles.contactPage}>
             <section className={styles.container}>
                 <div className={styles.header}>
-                    <span>Contato</span>
                     <h1>Contato</h1>
                     <p>
                         Estou sempre aberto para conversar sobre desenvolvimento de software, projetos e novas oportunidades. Entre em contato.

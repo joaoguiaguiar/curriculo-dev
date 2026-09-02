@@ -5,7 +5,6 @@ const InformacoesModernizadas = () => {
         <section className={styles.container} aria-labelledby="about-title">
             <div className={styles.content}>
                 <div className={styles.textBlock}>
-                    <span className={styles.eyebrow}>Sobre mim</span>
                     <h2 className={styles.title} id="about-title">Desenvolvedor Full Stack</h2>
                     <p>
                         Desenvolvedor e pesquisador com foco em aplicações web e software livre.
