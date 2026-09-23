@@ -8,7 +8,6 @@ const Menu = () => {
     { to: '/curriculo', label: 'Currículo' },
     { to: '/tecnologias', label: 'Tecnologias' },
     { to: '/portfolio', label: 'Portfólio' },
-    { to: '/contato', label: 'Contato' },
   ];
 
   return (

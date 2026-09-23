@@ -9,7 +9,6 @@ import Curriculo from './pages/Curriculo/index.jsx';
 import Tecnologias from './pages/Tecnologias';
 import Portfolio from './pages/Portfolio';
 import ProjetoDetalhe from './pages/ProjetoDetalhe/index.jsx';
-import Contato from './pages/Contato/index.jsx';
 import NotRouter from './pages/404.jsx'; 
 import ScrollToTop from './components/scroll/ScrollToTop.jsx';
 
@@ -27,7 +26,6 @@ function App() {
           <Route path='tecnologias' element={<Tecnologias />} />
           <Route path='portfolio' element={<Portfolio />} />
           <Route path='portfolio/:id' element={<ProjetoDetalhe />} />
-          <Route path='contato' element={<Contato />} />
           <Route path='about-me' element={<Navigate to='/sobre' replace />} />
         </Route>
         <Route path='*' element={<NotRouter />} />
